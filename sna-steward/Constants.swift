@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct Colors {
-    static let primary = Color(hex: "DCAF47")
+public struct Colors {
+    public static let primary = Color(hex: "DCAF47")
 }
 
 extension Color {
