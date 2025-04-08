@@ -11,6 +11,7 @@ struct BirdCheckListView: View {
   
   @State private var birds: [Bird] = []
   @State private var groupedBirds: [String: [Bird]] = [:]
+  @State private var selectedBird: Bird?
   
   var body: some View {
     NavigationView {
@@ -26,11 +27,18 @@ struct BirdCheckListView: View {
               ForEach(groupedBirds[birdGroup] ?? [], id: \.id) { bird in
                 BirdCell(bird: bird)
                   .listRowInsets(EdgeInsets(top: 4, leading: 16, bottom: 4, trailing: 16))
+                  .contentShape(Rectangle())
+                  .onTapGesture {
+                    selectedBird = bird
+                  }
               }
             }
           }
         }
         .listStyle(.plain)
+        .sheet(item: $selectedBird) { bird in
+          BirdDetailView(bird: bird)
+        }
       }
     }
     .navigationTitle("Bird Checklist")
