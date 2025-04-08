@@ -7,15 +7,15 @@
 import Foundation
 
 struct Bird: Identifiable, Codable, Groupable, Hashable {
-  let id: UUID;
-  let group: String;
-  let species: String;
-  let spring: Bool;
-  let fall: Bool;
-  let summer: Bool;
-  let winter: Bool;
-  let description: String;
-  let image_url: String;
+  let id: UUID
+  let group: String
+  let species: String
+  let spring: Bool
+  let fall: Bool
+  let summer: Bool
+  let winter: Bool
+  let description: String
+  let image_url: String
   
   enum CodingKeys: String, CodingKey {
     case group
@@ -29,16 +29,16 @@ struct Bird: Identifiable, Codable, Groupable, Hashable {
   }
   
   init(from decoder: Decoder) throws {
-    let container = try decoder.container(keyedBy: CodingKeys.self);
-    self.id = UUID();
-    self.group = try container.decode(String.self, forKey: .group);
-    self.spring = try container.decode(Bool.self, forKey: .spring);
-    self.summer = try container.decode(Bool.self, forKey: .summer);
-    self.fall = try container.decode(Bool.self, forKey: .fall);
-    self.winter = try container.decode(Bool.self, forKey: .winter);
-    self.species = try container.decode(String.self, forKey: .species);
-    self.description = try container.decode(String.self, forKey: .description);
-    self.image_url = try container.decode(String.self, forKey: .image_url);
+    let container = try decoder.container(keyedBy: CodingKeys.self)
+    self.id = UUID()
+    self.group = try container.decode(String.self, forKey: .group)
+    self.spring = try container.decode(Bool.self, forKey: .spring)
+    self.summer = try container.decode(Bool.self, forKey: .summer)
+    self.fall = try container.decode(Bool.self, forKey: .fall)
+    self.winter = try container.decode(Bool.self, forKey: .winter)
+    self.species = try container.decode(String.self, forKey: .species)
+    self.description = try container.decode(String.self, forKey: .description)
+    self.image_url = try container.decode(String.self, forKey: .image_url)
   }
   
   // Custom initializer for sample birds
@@ -50,7 +50,8 @@ struct Bird: Identifiable, Codable, Groupable, Hashable {
        summer: Bool,
        winter: Bool,
        description: String,
-       image_url: String) {
+       image_url: String)
+  {
     self.id = id
     self.group = group
     self.species = species

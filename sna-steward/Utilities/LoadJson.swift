@@ -13,11 +13,11 @@ func loadJson<T: Decodable>(_ filename: String) -> T? {
     #endif
     return nil
   }
-  
+
   do {
-    let data = try Data(contentsOf: url);
-    let decoder = JSONDecoder();
-    return try decoder.decode(T.self, from: data);
+    let data = try Data(contentsOf: url)
+    let decoder = JSONDecoder()
+    return try decoder.decode(T.self, from: data)
   } catch {
     #if DEBUG
       print("Error loading \(filename).json: \(error)")
