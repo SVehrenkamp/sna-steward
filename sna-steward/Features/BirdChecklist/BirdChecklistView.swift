@@ -13,47 +13,42 @@ struct BirdCheckListView: View {
   @State private var groupedBirds: [String: [Bird]] = [:]
   
   var body: some View {
-    VStack {
-      Text("Bird Checklist")
-      
-      if (birds.isEmpty == true) {
+    NavigationView {
+      if birds.isEmpty {
         Text("No birds found")
-      }
-      
-      if (birds.isEmpty == false) {
-        List{
-          ForEach(groupedBirds.keys.sorted(), id: \.self) {
-            birdGroup in
+      } else {
+        List {
+          ForEach(groupedBirds.keys.sorted(), id: \.self) { birdGroup in
             Section(header: Text(birdGroup)
               .font(.headline)
               .bold()
             ) {
-              BirdListView(birdList: groupedBirds[birdGroup] ?? [])
+              ForEach(groupedBirds[birdGroup] ?? [], id: \.id) { bird in
+                BirdCell(bird: bird)
+                  .listRowInsets(EdgeInsets(top: 4, leading: 16, bottom: 4, trailing: 16))
+              }
             }
           }
         }
+        .listStyle(.plain)
       }
-      
-     
     }
-    .onAppear {
-      birds = loadJson(StaticData.birdDataFilename) ?? []
-      groupedBirds = group(birds)
+    .navigationTitle("Bird Checklist")
+    .task {
+      await loadData()
     }
   }
-}
-
-struct BirdListView: View {
-  let birdList: [Bird]
   
-  var body: some View {
-    VStack {
-      ForEach(birdList, id: \.self) { bird in
-        BirdCell(bird: bird)
-      }
+  private func loadData() async {
+    let loadedBirds = await Task.detached {
+      loadJson(StaticData.birdDataFilename) as [Bird]? ?? []
+    }.value
+    
+    await MainActor.run {
+      self.birds = loadedBirds
+      self.groupedBirds = group(loadedBirds)
     }
   }
-
 }
 
 #Preview {
