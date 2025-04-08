@@ -79,17 +79,6 @@ struct MapView: View {
     }
 }
 
-struct BirdCheckListView: View {
-  var body: some View {
-      Text("Bird Checklist")
-  }
-}
-
-struct PlantCheckListView: View {
-  var body: some View {
-      Text("Plant Checklist")
-  }
-}
 
 #Preview {
     MainTabView()

@@ -27,11 +27,43 @@
 		942D8D3D2DA31FF4003DD9C8 /* sna-steward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sna-steward.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942D8D4D2DA31FF5003DD9C8 /* sna-stewardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sna-stewardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942D8D572DA31FF5003DD9C8 /* sna-stewardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sna-stewardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942D8DB32DA44AEB003DD9C8 /* sna-steward.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "sna-steward.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		942D8D872DA340F7003DD9C8 /* Exceptions for "sna-steward" folder in "sna-steward" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 942D8D3C2DA31FF4003DD9C8 /* sna-steward */;
+		};
+		942D8D912DA35844003DD9C8 /* Exceptions for "sna-steward" folder in "sna-stewardTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"static-data/cannon-river-turtle-preserve-sna-bird-checklist.json",
+				"static-data/cannon-river-turtle-preserve-sna-plant-checklist.json",
+			);
+			target = 942D8D4C2DA31FF5003DD9C8 /* sna-stewardTests */;
+		};
+		942D8D922DA35844003DD9C8 /* Exceptions for "sna-steward" folder in "sna-stewardUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"static-data/cannon-river-turtle-preserve-sna-bird-checklist.json",
+				"static-data/cannon-river-turtle-preserve-sna-plant-checklist.json",
+			);
+			target = 942D8D562DA31FF5003DD9C8 /* sna-stewardUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		942D8D3F2DA31FF4003DD9C8 /* sna-steward */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				942D8D872DA340F7003DD9C8 /* Exceptions for "sna-steward" folder in "sna-steward" target */,
+				942D8D912DA35844003DD9C8 /* Exceptions for "sna-steward" folder in "sna-stewardTests" target */,
+				942D8D922DA35844003DD9C8 /* Exceptions for "sna-steward" folder in "sna-stewardUITests" target */,
+			);
 			path = "sna-steward";
 			sourceTree = "<group>";
 		};
@@ -89,6 +121,11 @@
 				942D8D4D2DA31FF5003DD9C8 /* sna-stewardTests.xctest */,
 				942D8D572DA31FF5003DD9C8 /* sna-stewardUITests.xctest */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942D8DB42DA44AEB003DD9C8 /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -198,6 +235,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 942D8D3E2DA31FF4003DD9C8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 942D8DB42DA44AEB003DD9C8 /* Products */;
+					ProjectRef = 942D8DB32DA44AEB003DD9C8 /* sna-steward.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				942D8D3C2DA31FF4003DD9C8 /* sna-steward */,
@@ -400,6 +443,7 @@
 				DEVELOPMENT_TEAM = DNTLF3BMQ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sna-steward/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "SNA Steward";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -436,6 +480,7 @@
 				DEVELOPMENT_TEAM = DNTLF3BMQ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sna-steward/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "SNA Steward";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

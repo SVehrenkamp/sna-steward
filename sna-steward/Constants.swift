@@ -29,3 +29,8 @@ extension Color {
         )
     }
 }
+
+public struct StaticData {
+  public static let birdDataFilename = "cannon-river-turtle-preserve-sna-bird-checklist";
+  public static let plantDataFilename = "cannon-river-turtle-preserve-sna-plant-checklist";
+}

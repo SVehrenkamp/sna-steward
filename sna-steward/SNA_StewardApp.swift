@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct sna_stewardApp: App {
+struct SNA_StewardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }

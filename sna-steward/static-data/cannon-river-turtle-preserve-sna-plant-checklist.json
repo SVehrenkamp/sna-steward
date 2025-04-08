@@ -1,0 +1,956 @@
+[
+    {
+        "group": "CLIMBERS/VINES AND EPIPHYTES",
+        "species": "American bittersweet (Celastrus scandens)",
+        "confidence": "3",
+        "description": "A native woody vine with orange-red fruit capsules that split open to reveal bright scarlet berries in fall. Grows up to 30 feet, has elliptical toothed leaves, and provides food for birds. Found in forest edges and thickets.",
+        "common_name": "American bittersweet",
+        "scientific_name": "Celastrus scandens",
+        "image_url": "https://bs.plantnet.org/image/o/616100a5b99c44e844f51180888a8a817cd99eb2"
+    },
+    {
+        "group": "CLIMBERS/VINES AND EPIPHYTES",
+        "species": "Canada moonseed (Menispermum canadense)",
+        "confidence": "3",
+        "description": "A woody climbing vine with circular, lobed leaves and grape-like clusters of bluish-black fruits (toxic to humans). Grows in moist woods and along streams. Gets its name from crescent moon-shaped seeds.",
+        "common_name": "Canada moonseed",
+        "scientific_name": "Menispermum canadense",
+        "image_url": "https://bs.plantnet.org/image/o/c04ce1e3d7a47bcb7d69592dc38a1547ca90f8b4"
+    },
+    {
+        "group": "CLIMBERS/VINES AND EPIPHYTES",
+        "species": "Virginia creeper (Parthenocissus quinquefolia)",
+        "confidence": "3",
+        "description": "A climbing vine with compound leaves containing five leaflets that turn brilliant red in fall. Has blue-black berries and adhesive discs on tendrils for climbing. Common in woodlands and urban areas.",
+        "common_name": "Virginia creeper",
+        "scientific_name": "Parthenocissus quinquefolia",
+        "image_url": "https://bs.plantnet.org/image/o/98cbd1dc83dfb73d3fe2943c61ca104086a8b74e"
+    },
+    {
+        "group": "CLIMBERS/VINES AND EPIPHYTES",
+        "species": "greenbrier (Smilax tamnoides)",
+        "confidence": "3",
+        "description": "A thorny, woody vine with glossy, heart-shaped leaves and black berries. Has strong tendrils for climbing and forms dense thickets in woodland edges and clearings. Also known as bristly greenbrier.",
+        "common_name": "greenbrier",
+        "scientific_name": "Smilax tamnoides",
+        "image_url": ""
+    },
+    {
+        "group": "CLIMBERS/VINES AND EPIPHYTES",
+        "species": "wild grape (Vitis riparia)",
+        "confidence": "3",
+        "description": "A native climbing vine with lobed leaves, tendrils, and edible purple-black fruit clusters. Has peeling bark and grows along riverbanks and in moist woods. Also called riverbank grape.",
+        "common_name": "wild grape",
+        "scientific_name": "Vitis riparia",
+        "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6c67618074b943e6839a517e1dd0f438.jpg"
+    },
+    {
+        "group": "FORBS",
+        "species": "velvet leaf (Abutilon theophrasti)*",
+        "confidence": "3",
+        "description": "An invasive annual weed with large, heart-shaped, velvety leaves and orange-yellow flowers. Grows 3-6 feet tall and has distinctive disc-shaped seed pods. Common in agricultural fields and disturbed areas.",
+        "common_name": "velvet leaf",
+        "scientific_name": "Abutilon theophrasti",
+        "image_url": "https://bs.plantnet.org/image/o/d8fcf618a7695629980757d11fc836d49717499b"
+    },
+    {
+        "group": "FORBS",
+        "species": "moschatel (Adoxa moschatellina)",
+        "confidence": "1",
+        "description": "A low-growing perennial herb with tiny yellowish-green flowers arranged in a cube-like cluster. Found in moist, shaded woodland habitats. Also known as townhall clock for its flower arrangement.",
+        "common_name": "moschatel",
+        "scientific_name": "Adoxa moschatellina",
+        "image_url": "https://bs.plantnet.org/image/o/73a7d096bd3b3254b77e2ec4027f01be46001628"
+    },
+    {
+        "group": "FORBS",
+        "species": "white snakeroot (Ageratina altissima)",
+        "confidence": "3",
+        "description": "A perennial with clusters of small white flowers and serrated, pointed leaves. Contains tremetol, toxic to livestock and humans. Grows in woodland edges and moist, shady areas.",
+        "common_name": "white snakeroot",
+        "scientific_name": "Ageratina altissima",
+        "image_url": "https://bs.plantnet.org/image/o/fbefe23a31374a26f7dfff6b846efa0cd0aef0a4"
+    },
+    {
+        "group": "FORBS",
+        "species": "long-headed thimbleweed (Anemone cylindrica)",
+        "confidence": "3",
+        "description": "A native perennial with cylindrical seed heads, basal leaves, and solitary greenish-white flowers. Grows 1-2 feet tall in prairies and open woods. Seed heads resemble thimbles.",
+        "common_name": "long-headed thimbleweed",
+        "scientific_name": "Anemone cylindrica",
+        "image_url": "https://bs.plantnet.org/image/o/1b543a63846dd174e69fef6e27b1c839ee3e7bb8"
+    },
+    {
+        "group": "FORBS",
+        "species": "angelica (Angelica atropurpurea)",
+        "confidence": "2",
+        "description": "A tall (4-8 feet) wetland plant with hollow stems, compound leaves, and large dome-shaped clusters of white flowers. Prefers wet meadows and streambanks. Has purple-tinged stems.",
+        "common_name": "angelica",
+        "scientific_name": "Angelica atropurpurea",
+        "image_url": "https://bs.plantnet.org/image/o/ab7db8096ab24cee6b9afcadee6a4b9bf7bc6ecf"
+    },
+    {
+        "group": "FORBS",
+        "species": "spreading dogbane (Apocynum androsaemifolium)",
+        "confidence": "3",
+        "description": "A perennial with pinkish-white bell-shaped flowers, reddish stems, and milky sap. Grows 1-3 feet tall in open woods and fields. Toxic to many animals and named for its historical use repelling dogs.",
+        "common_name": "spreading dogbane",
+        "scientific_name": "Apocynum androsaemifolium",
+        "image_url": "https://bs.plantnet.org/image/o/349c35a29158d5dadf4e05c5da52834ff795a6a6"
+    },
+    {
+        "group": "FORBS",
+        "species": "American hemp (Apocynum cannabinum)",
+        "confidence": "3",
+        "description": "A perennial with small greenish-white flowers, opposite leaves, and tough fibrous stems used historically for cordage. Contains toxic cardiac glycosides. Grows in moist areas and fields.",
+        "common_name": "American hemp",
+        "scientific_name": "Apocynum cannabinum",
+        "image_url": "https://bs.plantnet.org/image/o/1a18bf8fdd691d4341d1d2ea3d631bbcabad6c45"
+    },
+    {
+        "group": "FORBS",
+        "species": "wild ginger (Asarum canadense)",
+        "confidence": "3",
+        "description": "A low-growing woodland perennial with heart-shaped leaves and hidden maroon flowers at ground level. Has a ginger-like aroma when crushed. Forms colonies in rich forest soils.",
+        "common_name": "wild ginger",
+        "scientific_name": "Asarum canadense",
+        "image_url": "https://bs.plantnet.org/image/o/b5c62bc3b1617c9e2d383212fbe0a18dee41da9b"
+    },
+    {
+        "group": "FORBS",
+        "species": "common milkweed (Asclepias syriaca)",
+        "confidence": "3",
+        "description": "A robust perennial with thick oval leaves, pinkish-purple flower clusters, and pods containing silky-haired seeds. Grows 3-5 feet tall in fields and roadsides. Essential host plant for monarch butterflies.",
+        "common_name": "common milkweed",
+        "scientific_name": "Asclepias syriaca",
+        "image_url": "https://bs.plantnet.org/image/o/2ac0ebec3a36709c376b822a164863125f2ccc96"
+    },
+    {
+        "group": "FORBS",
+        "species": "whorled milkweed (Asclepias verticillata)",
+        "confidence": "3",
+        "description": "A slender milkweed with narrow, needle-like leaves arranged in whorls and small white flower clusters. Grows 1-3 feet tall in dry prairies and sandy soils. Contains toxic cardiac glycosides.",
+        "common_name": "whorled milkweed",
+        "scientific_name": "Asclepias verticillata",
+        "image_url": "https://bs.plantnet.org/image/o/4cc011260fa179731668e42fb29c1ca4e9c57ce2"
+    },
+    {
+        "group": "FORBS",
+        "species": "harebell (Campanula rotundifolia)",
+        "confidence": "3",
+        "description": "A delicate perennial with slender stems, round basal leaves, and nodding blue bell-shaped flowers. Grows 6-12 inches tall on rocky slopes, cliffs, and dry meadows. Also called bluebell.",
+        "common_name": "harebell",
+        "scientific_name": "Campanula rotundifolia",
+        "image_url": "https://bs.plantnet.org/image/o/7aa04e3027b423278b629678717006502f777e15"
+    },
+    {
+        "group": "FORBS",
+        "species": "Canada thistle (Cirsium arvense)*",
+        "confidence": "3",
+        "description": "An invasive perennial with spiny leaves, purple flower heads, and extensive creeping roots. Grows 2-5 feet tall and forms dense colonies in fields and disturbed sites. Very difficult to control.",
+        "common_name": "Canada thistle",
+        "scientific_name": "Cirsium arvense",
+        "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c7d6d18dfbd69cbf043001fb3204517c.jpg"
+    },
+    {
+        "group": "FORBS",
+        "species": "field thistle (Cirsium discolor)",
+        "confidence": "3",
+        "description": "A native biennial thistle with spiny-lobed leaves that are white underneath and large pink-purple flower heads. Grows 3-8 feet tall in prairies, pastures, and open woods. Important nectar source.",
+        "common_name": "field thistle",
+        "scientific_name": "Cirsium discolor",
+        "image_url": "https://bs.plantnet.org/image/o/6bc8ccb9b7d26877b8836df11a2af2276fbdb4d3"
+    },
+    {
+        "group": "FORBS",
+        "species": "bull thistle (Cirsium vulgare)*",
+        "confidence": "3",
+        "description": "An invasive biennial with very spiny stems and leaves, and purple flower heads. Grows 2-6 feet tall in pastures and disturbed areas. Leaves have distinctive white woolly undersides.",
+        "common_name": "bull thistle",
+        "scientific_name": "Cirsium vulgare",
+        "image_url": "https://bs.plantnet.org/image/o/6de5f109347849554b9aa4dc16ad09721b0ba93c"
+    },
+    {
+        "group": "FORBS",
+        "species": "honewort (Cryptotaenia canadensis)",
+        "confidence": "2",
+        "description": "A woodland perennial with small white flowers in irregular compound umbels and trifoliate leaves. Grows 1-3 feet tall in moist, rich forests. Leaves have a mild parsley-like flavor.",
+        "common_name": "honewort",
+        "scientific_name": "Cryptotaenia canadensis",
+        "image_url": "https://bs.plantnet.org/image/o/60035c97d9b60af9740a78a3440519d9e06e645d"
+    },
+    {
+        "group": "FORBS",
+        "species": "Queen Anne's lace (Daucus carota)*",
+        "confidence": "3",
+        "description": "An invasive biennial with lacy, fern-like leaves and flat-topped clusters of tiny white flowers, often with a purple center flower. Grows 1-4 feet tall in fields and roadsides. Wild ancestor of the cultivated carrot.",
+        "common_name": "Queen Anne's lace",
+        "scientific_name": "Daucus carota",
+        "image_url": "https://bs.plantnet.org/image/o/051631f859a3a433e2954747fa1bdb6bc09a0e66"
+    },
+    {
+        "group": "FORBS",
+        "species": "wild cucumber (Echinocystis lobata)",
+        "confidence": "3",
+        "description": "An annual vine with star-shaped leaves, tendrils, small white flowers, and spiny cucumber-like fruits. Rapidly grows up to 25 feet on streambanks and wet thickets. Seeds dispersed by water.",
+        "common_name": "wild cucumber",
+        "scientific_name": "Echinocystis lobata",
+        "image_url": "https://bs.plantnet.org/image/o/780c92a88f5a678cb271f4c95176fd0909a2c144"
+    },
+    {
+        "group": "FORBS",
+        "species": "white trout lily (Erythronium albidum)",
+        "confidence": "3",
+        "description": "A spring ephemeral with white nodding flowers and mottled basal leaves resembling trout markings. Grows 4-8 inches tall in rich deciduous woodlands. Forms colonies from underground corms.",
+        "common_name": "white trout lily",
+        "scientific_name": "Erythronium albidum",
+        "image_url": "https://bs.plantnet.org/image/o/b19f460766aeeab3d2e689ec132ffc9a23822491"
+    },
+    {
+        "group": "FORBS",
+        "species": "eastern flowering spurge (Euphorbia corollata)",
+        "confidence": "3",
+        "description": "A perennial with small white flowers surrounded by petal-like bracts and milky sap. Grows 1-3 feet tall in dry prairies and open woods. Contains irritating latex.",
+        "common_name": "eastern flowering spurge",
+        "scientific_name": "Euphorbia corollata",
+        "image_url": "https://bs.plantnet.org/image/o/96ba48afee637720c1eefd751734a48a370a6b69"
+    },
+    {
+        "group": "FORBS",
+        "species": "false buckwheat (Fallopia scandens)",
+        "confidence": "2",
+        "description": "A climbing vine with arrow-shaped leaves, small greenish flowers, and triangular black seeds. Grows in thickets and woodland edges. Related to Japanese knotweed but native.",
+        "common_name": "false buckwheat",
+        "scientific_name": "Fallopia scandens",
+        "image_url": "https://bs.plantnet.org/image/o/c683461ba3fc8219c6b30c260d83de7220305de8"
+    },
+    {
+        "group": "FORBS",
+        "species": "cleavers (Galium aparine)",
+        "confidence": "3",
+        "description": "An annual with whorled leaves and tiny hooked bristles that cling to clothing and animal fur. Has small white flowers and sticky seeds. Grows in moist woodlands and shaded areas. Also called bedstraw.",
+        "common_name": "cleavers",
+        "scientific_name": "Galium aparine",
+        "image_url": "https://bs.plantnet.org/image/o/a889db2f581d38b0780bc0ee66549b1583a1d4f4"
+    },
+    {
+        "group": "FORBS",
+        "species": "rough bedstraw (Galium asprellum)",
+        "confidence": "2",
+        "description": "A perennial with square stems, whorled leaves, and backward-pointing prickles that help it climb. Grows in wet meadows and swamps. Has small white flowers and non-sticky fruits.",
+        "common_name": "rough bedstraw",
+        "scientific_name": "Galium asprellum",
+        "image_url": "https://bs.plantnet.org/image/o/1693d1c43198680702c0d3b6eed18b99ddf756dc"
+    },
+    {
+        "group": "FORBS",
+        "species": "white avens (Geum canadense)",
+        "confidence": "1",
+        "description": "A woodland perennial with small white flowers, hooked seeds, and compound basal leaves. Grows 1-3 feet tall in moist forests and woodland edges. Seeds attach to passing animals.",
+        "common_name": "white avens",
+        "scientific_name": "Geum canadense",
+        "image_url": "https://bs.plantnet.org/image/o/6c76d57060adc8a96657792192c2fa90f8a692cf"
+    },
+    {
+        "group": "FORBS",
+        "species": "creeping charlie (Glechoma hederacea)*",
+        "confidence": "2",
+        "description": "An invasive perennial groundcover with square stems, round scalloped leaves, and purple flowers. Spreads aggressively in lawns and shaded areas. Also called ground ivy.",
+        "common_name": "creeping charlie",
+        "scientific_name": "Glechoma hederacea",
+        "image_url": "https://bs.plantnet.org/image/o/27d4a32d5f7c7c6b1748904f852d3e6d561a17cd"
+    },
+    {
+        "group": "FORBS",
+        "species": "hairy sunflower (Helianthus hirsutus)",
+        "confidence": "3",
+        "description": "A rough-hairy perennial with yellow ray flowers, opposite leaves, and rhizomatous growth. Grows 2-5 feet tall in prairies and open woods. Important nectar source for pollinators.",
+        "common_name": "hairy sunflower",
+        "scientific_name": "Helianthus hirsutus",
+        "image_url": "https://bs.plantnet.org/image/o/39112913dfb3ee873e1b4e401a12c8d5f7673924"
+    },
+    {
+        "group": "FORBS",
+        "species": "cow parsnip (Heracleum lanatum)",
+        "confidence": "2",
+        "description": "A large (4-10 feet) perennial with huge compound leaves and flat-topped clusters of white flowers. Grows in moist meadows and along streams. Contains furocoumarins that can cause skin irritation.",
+        "common_name": "cow parsnip",
+        "scientific_name": "Heracleum lanatum",
+        "image_url": "https://bs.plantnet.org/image/o/795061348098dfe2c4cdedd6a5dcb5c9db848d55"
+    },
+    {
+        "group": "FORBS",
+        "species": "spotted touch-me-not (Impatiens capensis)",
+        "confidence": "2",
+        "description": "An annual with orange spotted flowers, succulent stems, and seed pods that explode when touched. Grows 2-5 feet tall in moist, shaded areas. Also called jewelweed; used for poison ivy relief.",
+        "common_name": "spotted touch-me-not",
+        "scientific_name": "Impatiens capensis",
+        "image_url": "https://bs.plantnet.org/image/o/ed91dfdb52b6427bbb3d6942d69939c4f67bacc3"
+    },
+    {
+        "group": "FORBS",
+        "species": "pale touch-me-not (Impatiens pallida)",
+        "confidence": "3",
+        "description": "Similar to spotted touch-me-not but with pale yellow flowers. Has succulent stems and explosive seed pods. Grows in moist woodlands and along streams. Also called yellow jewelweed.",
+        "common_name": "pale touch-me-not",
+        "scientific_name": "Impatiens pallida",
+        "image_url": "https://bs.plantnet.org/image/o/d9aec45d9b04eac9c89d078877e12fd196c8fe0a"
+    },
+    {
+        "group": "FORBS",
+        "species": "woodnettle (Laportea canadensis)",
+        "confidence": "2",
+        "description": "A woodland perennial with alternate leaves and stinging hairs that cause skin irritation. Grows 2-4 feet tall in rich, moist forests. Has small greenish flowers in branched clusters.",
+        "common_name": "woodnettle",
+        "scientific_name": "Laportea canadensis",
+        "image_url": "https://bs.plantnet.org/image/o/e27e4f24b51bac5b137f724ca57d44394e57256c"
+    },
+    {
+        "group": "FORBS",
+        "species": "blue monkey flower (Mimulus ringens)",
+        "confidence": "1",
+        "description": "A wetland perennial with square stems, opposite leaves, and snapdragon-like violet-blue flowers. Grows 1-3 feet tall in wet meadows, marshes, and along streams.",
+        "common_name": "blue monkey flower",
+        "scientific_name": "Mimulus ringens",
+        "image_url": "https://bs.plantnet.org/image/o/1b6473e99e987654a51ef432fe400d9415e66114"
+    },
+    {
+        "group": "FORBS",
+        "species": "wild bergamot (Monarda fistulosa)",
+        "confidence": "3",
+        "description": "A fragrant perennial with lavender flower heads, square stems, and aromatic leaves. Grows 2-4 feet tall in prairies and open woods. Excellent pollinator plant also known as bee balm.",
+        "common_name": "wild bergamot",
+        "scientific_name": "Monarda fistulosa",
+        "image_url": "https://bs.plantnet.org/image/o/92a30a6130c47b8b7e9d01679d26d72ab2169aef"
+    },
+    {
+        "group": "FORBS",
+        "species": "giant chickweed (Myosoton aquaticum)*",
+        "confidence": "1",
+        "description": "An invasive perennial with weak stems, opposite leaves, and small white flowers with deeply notched petals. Grows in wet areas along streams and ponds. Also called water chickweed.",
+        "common_name": "giant chickweed",
+        "scientific_name": "Myosoton aquaticum",
+        "image_url": "https://bs.plantnet.org/image/o/4a424176b886fc636c020010e7c3c064b8a5b101"
+    },
+    {
+        "group": "FORBS",
+        "species": "Clayton's sweet cicely (Osmorhiza claytonii)",
+        "confidence": "3",
+        "description": "A woodland perennial with compound leaves, small white flowers in umbels, and anise-scented roots. Grows 1-3 feet tall in rich deciduous forests. Has distinctive bristly seeds that stick to clothing.",
+        "common_name": "Clayton's sweet cicely",
+        "scientific_name": "Osmorhiza claytonii",
+        "image_url": "https://bs.plantnet.org/image/o/7bd7489ae6ec25bd7ae0b1ec596bcaf536461ba6"
+    },
+    {
+        "group": "FORBS",
+        "species": "aniseroot (Osmorhiza longistylis)",
+        "confidence": "2",
+        "description": "Similar to Clayton's sweet cicely but with stronger licorice-scented roots and smoother seeds. Grows in moist woodlands and has compound leaves with toothed leaflets.",
+        "common_name": "aniseroot",
+        "scientific_name": "Osmorhiza longistylis",
+        "image_url": "https://bs.plantnet.org/image/o/7bd7489ae6ec25bd7ae0b1ec596bcaf536461ba6"
+    },
+    {
+        "group": "FORBS",
+        "species": "wild parsnip (Pastinaca sativa)*",
+        "confidence": "2",
+        "description": "An invasive biennial with yellow flower umbels, pinnately compound leaves, and a taproot. Grows 2-5 feet tall in fields and roadsides. Contains furocoumarins that cause severe skin burns.",
+        "common_name": "wild parsnip",
+        "scientific_name": "Pastinaca sativa",
+        "image_url": "https://bs.plantnet.org/image/o/a0d90dc4eda6b06b6762d38e7c5f6ae45cee99b1"
+    },
+    {
+        "group": "FORBS",
+        "species": "ditch stonecrop (Penthorum sedoides)",
+        "confidence": "1",
+        "description": "A wetland perennial with alternate leaves, small greenish flowers, and star-shaped seed capsules. Grows in muddy shores, ditches, and wet places. Not succulent despite its name.",
+        "common_name": "ditch stonecrop",
+        "scientific_name": "Penthorum sedoides",
+        "image_url": "https://bs.plantnet.org/image/o/dffcad5f6fac3586fbac261e5b1e34469dca8480"
+    },
+    {
+        "group": "FORBS",
+        "species": "nodding smartweed (Persicaria lapathifolia)",
+        "confidence": "1",
+        "description": "An annual with jointed stems, alternate leaves, and drooping spikes of pink or white flowers. Grows in wet soil along streams and in disturbed areas. Seeds eaten by waterfowl.",
+        "common_name": "nodding smartweed",
+        "scientific_name": "Persicaria lapathifolia",
+        "image_url": "https://bs.plantnet.org/image/o/3d647c8b6e2026cc100df6d203cbfbe35dca7a11"
+    },
+    {
+        "group": "FORBS",
+        "species": "Pennsylvania smartweed (Persicaria pensylvanica)",
+        "confidence": "1",
+        "description": "An annual with pink flower spikes, lance-shaped leaves, and swollen stem nodes. Grows in moist soil and disturbed areas. Seeds important food source for birds and wildlife.",
+        "common_name": "Pennsylvania smartweed",
+        "scientific_name": "Persicaria pensylvanica",
+        "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/20f9a91010908b26e83b32b2d8bc384d.jpg"
+    },
+    {
+        "group": "FORBS",
+        "species": "Virginia knotweed (Persicaria virginiana)",
+        "confidence": "1",
+        "description": "A woodland perennial with slender spikes of tiny white flowers and pointed leaves often with a dark chevron pattern. Grows in moist forests. Has unique elastic-launching seeds.",
+        "common_name": "Virginia knotweed",
+        "scientific_name": "Persicaria virginiana",
+        "image_url": "https://bs.plantnet.org/image/o/7845e8e2b2b9096ac503a0a5295c580cee2b5f08"
+    },
+    {
+        "group": "FORBS",
+        "species": "blue phlox (Phlox divaricata)",
+        "confidence": "3",
+        "description": "A spring-flowering woodland perennial with loose clusters of fragrant lavender-blue flowers and opposite leaves. Grows 8-18 inches tall in rich deciduous forests. Also called wild sweet william.",
+        "common_name": "blue phlox",
+        "scientific_name": "Phlox divaricata",
+        "image_url": "https://bs.plantnet.org/image/o/e37daf64f8ee89e1a544a1bc04a8d820ea9d6d48"
+    },
+    {
+        "group": "FORBS",
+        "species": "leafcup (Polymnia canadensis)",
+        "confidence": "3",
+        "description": "A woodland perennial with large, deeply lobed leaves and small yellowish flower heads. Grows 2-5 feet tall in rich, moist forests. Upper leaves form cups that collect water.",
+        "common_name": "leafcup",
+        "scientific_name": "Polymnia canadensis",
+        "image_url": "https://bs.plantnet.org/image/o/2ab785ecae307ec9f01460dd8467eeef39ed6dda"
+    },
+    {
+        "group": "FORBS",
+        "species": "kidney-leaved buttercup (Ranunculus abortivus)",
+        "confidence": "2",
+        "description": "A biennial with round basal leaves, small yellow flowers, and smooth stems. Grows in moist woodlands and meadows. Has tiny petals making flowers less showy than other buttercups.",
+        "common_name": "kidney-leaved buttercup",
+        "scientific_name": "Ranunculus abortivus",
+        "image_url": "https://bs.plantnet.org/image/o/a3431a211dac4ce147790086d8da8faa3c34992e"
+    },
+    {
+        "group": "FORBS",
+        "species": "tall coneflower (Rudbeckia laciniata)",
+        "confidence": "2",
+        "description": "A tall (3-10 feet) perennial with yellow drooping ray flowers, green cone-like centers, and lobed leaves. Grows in moist meadows and woodland edges. Also called green-headed coneflower.",
+        "common_name": "tall coneflower",
+        "scientific_name": "Rudbeckia laciniata",
+        "image_url": "https://bs.plantnet.org/image/o/59f16894c52d77a0f7f7a74805b2367d54de38ae"
+    },
+    {
+        "group": "FORBS",
+        "species": "curly dock (Rumex crispus)*",
+        "confidence": "3",
+        "description": "An invasive perennial with wavy-edged leaves, a deep taproot, and reddish-brown seed clusters. Grows 1-4 feet tall in fields and disturbed sites. Seeds persist through winter.",
+        "common_name": "curly dock",
+        "scientific_name": "Rumex crispus",
+        "image_url": "https://bs.plantnet.org/image/o/d2208e617bd795ff20f638d6173bb80d19be4eb6"
+    },
+    {
+        "group": "FORBS",
+        "species": "golden dock (Rumex fueginus)",
+        "confidence": "1",
+        "description": "An annual or biennial with narrow leaves and dense clusters of small flowers that turn golden brown at maturity. Grows in wet, often brackish habitats along shores and disturbed areas.",
+        "common_name": "golden dock",
+        "scientific_name": "Rumex fueginus",
+        "image_url": "https://bs.plantnet.org/image/o/b07ad83adb571370a40982de0ec45248871486d6"
+    },
+    {
+        "group": "FORBS",
+        "species": "Maryland figwort (Scrophularia marilandica)",
+        "confidence": "1",
+        "description": "A tall perennial with square stems, opposite leaves, and small maroon flowers attractive to wasps. Grows 3-7 feet tall in woodland edges and openings. Also called carpenter's square.",
+        "common_name": "Maryland figwort",
+        "scientific_name": "Scrophularia marilandica",
+        "image_url": "https://bs.plantnet.org/image/o/aeac8df5d023047d57acf071ad4cc8780f9990c7"
+    },
+    {
+        "group": "FORBS",
+        "species": "prairie skullcap (Scutellaria parvula)",
+        "confidence": "3",
+        "description": "A small (4-12 inches) perennial with opposite leaves, blue-violet flowers, and underground tubers. Grows in dry prairies and savannas. Has helmet-shaped seed capsules giving the genus its name.",
+        "common_name": "prairie skullcap",
+        "scientific_name": "Scutellaria parvula",
+        "image_url": "https://bs.plantnet.org/image/o/5d465e08ac786158737334dd042057fcfe026423"
+    },
+    {
+        "group": "FORBS",
+        "species": "bur cucumber (Sicyos angulatus)",
+        "confidence": "2",
+        "description": "An annual climbing vine with lobed leaves, tendrils, small white flowers, and prickly fruit clusters. Grows in floodplains and moist disturbed areas. Related to cultivated cucumbers.",
+        "common_name": "bur cucumber",
+        "scientific_name": "Sicyos angulatus",
+        "image_url": "https://bs.plantnet.org/image/o/dd383fa9553f15e471af7fe3d69d0bf8d86f1c84"
+    },
+    {
+        "group": "FORBS",
+        "species": "late goldenrod (Solidago altissima)",
+        "confidence": "3",
+        "description": "A tall (3-7 feet) perennial with arching panicles of yellow flowers and rough, toothed leaves. Grows in fields and meadows. Important late-season nectar source for pollinators.",
+        "common_name": "late goldenrod",
+        "scientific_name": "Solidago altissima",
+        "image_url": "https://bs.plantnet.org/image/o/f6f4288a0aa1cd9e35486743ab749bc31649d038"
+    },
+    {
+        "group": "FORBS",
+        "species": "Canada goldenrod (Solidago canadensis)",
+        "confidence": "3",
+        "description": "Similar to late goldenrod with pyramid-shaped flower clusters and spreading by rhizomes. Grows in prairies and open areas. Often mistakenly blamed for hay fever but is insect-pollinated.",
+        "common_name": "Canada goldenrod",
+        "scientific_name": "Solidago canadensis",
+        "image_url": "https://bs.plantnet.org/image/o/c5b23d6a26b42aa1e025fb911caec79dd23e4163"
+    },
+    {
+        "group": "FORBS",
+        "species": "stiff goldenrod (Solidago rigida)",
+        "confidence": "3",
+        "description": "A prairie goldenrod with flat-topped flower clusters, rigid stems, and thick, oval leaves. Grows 2-5 feet tall in dry prairies and savannas. Less aggressive than other goldenrods.",
+        "common_name": "stiff goldenrod",
+        "scientific_name": "Solidago rigida",
+        "image_url": "https://bs.plantnet.org/image/o/d2df9eb30590fab486822a7051febddfc7421470"
+    },
+    {
+        "group": "FORBS",
+        "species": "smooth hedge nettle (Stachys hispida)",
+        "confidence": "1",
+        "description": "A perennial with square stems, opposite leaves, and whorls of pink-purple flowers. Grows in moist meadows and along streams. Less bristly than other hedge nettles despite its name.",
+        "common_name": "smooth hedge nettle",
+        "scientific_name": "Stachys hispida",
+        "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/22521f8e3694186a68f442e3b4c7f513.jpg"
+    },
+    {
+        "group": "FORBS",
+        "species": "narrow-leaved hedge nettle (Stachys tenuifolia)",
+        "confidence": "2",
+        "description": "A perennial with square stems, lance-shaped leaves, and whorls of light purple flowers along the upper stem. Grows in moist woodlands and along waterways. Not actually stinging.",
+        "common_name": "narrow-leaved hedge nettle",
+        "scientific_name": "Stachys tenuifolia",
+        "image_url": "https://bs.plantnet.org/image/o/4ad01c3c6b9626990403fa3446d76683adde9348"
+    },
+    {
+        "group": "FORBS",
+        "species": "heath aster (Symphyotrichum ericoides)",
+        "confidence": "3",
+        "description": "A bushy perennial with numerous small white flower heads and narrow leaves. Grows 1-3 feet tall in dry prairies and open areas. Has a heath-like appearance when in bloom.",
+        "common_name": "heath aster",
+        "scientific_name": "Symphyotrichum ericoides",
+        "image_url": "https://bs.plantnet.org/image/o/5ec8132b19c78e91874391186043b5f76829a98e"
+    },
+    {
+        "group": "FORBS",
+        "species": "New England aster (Symphyotrichum novae-angliae)",
+        "confidence": "3",
+        "description": "A tall (3-6 feet) perennial with showy purple flower heads, hairy stems, and clasping leaves. Grows in moist meadows and prairies. Important late-season nectar source for butterflies.",
+        "common_name": "New England aster",
+        "scientific_name": "Symphyotrichum novae-angliae",
+        "image_url": "https://bs.plantnet.org/image/o/d9d6729c9425914144a04c0df3e8856835332168"
+    },
+    {
+        "group": "FORBS",
+        "species": "skyblue aster (Symphyotrichum oolentangiense)",
+        "confidence": "3",
+        "description": "A perennial with blue-violet ray flowers, heart-shaped basal leaves, and rough-textured foliage. Grows 1-3 feet tall in dry prairies and savannas. Also called azure aster.",
+        "common_name": "skyblue aster",
+        "scientific_name": "Symphyotrichum oolentangiense",
+        "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b0064e5175c78960933424cc688dc391.jpg"
+    },
+    {
+        "group": "FORBS",
+        "species": "tall meadow-rue (Thalictrum dasycarpum)",
+        "confidence": "3",
+        "description": "A tall (3-6 feet) perennial with compound leaves resembling columbine and airy clusters of white, tassel-like flowers. Grows in moist meadows and woodland edges. Dioecious.",
+        "common_name": "tall meadow-rue",
+        "scientific_name": "Thalictrum dasycarpum",
+        "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f10f9a0b811c6d43022b09a79566e386.jpg"
+    },
+    {
+        "group": "FORBS",
+        "species": "rue anemone (Thalictrum thalictroides)",
+        "confidence": "3",
+        "description": "A spring wildflower with delicate white flowers and compound leaves resembling meadow-rue. Grows 4-9 inches tall in deciduous woodlands. Forms clusters from tuberous roots.",
+        "common_name": "rue anemone",
+        "scientific_name": "Thalictrum thalictroides",
+        "image_url": "https://bs.plantnet.org/image/o/3dddda921083fbe6a3297aa6cb4baff24515a43b"
+    },
+    {
+        "group": "FORBS",
+        "species": "red clover (Trifolium pratense)*",
+        "confidence": "3",
+        "description": "An introduced perennial with round pink-purple flower heads and trifoliate leaves with white chevron markings. Grows in fields and lawns. Important forage plant and nitrogen fixer.",
+        "common_name": "red clover",
+        "scientific_name": "Trifolium pratense",
+        "image_url": "https://bs.plantnet.org/image/o/3bb52539dcca8b6bf19b9bf752631def901ba64c"
+    },
+    {
+        "group": "FORBS",
+        "species": "drooping trillium (Trillium flexipes)",
+        "confidence": "3",
+        "description": "A spring wildflower with three large leaves, a nodding white flower that ages to pink, and a short stem. Grows in rich deciduous forests. Seeds dispersed by ants.",
+        "common_name": "drooping trillium",
+        "scientific_name": "Trillium flexipes",
+        "image_url": "https://bs.plantnet.org/image/o/2d72b4bf776100ee2d7f05a01ae606dd33b93410"
+    },
+    {
+        "group": "FORBS",
+        "species": "stinging nettle (Urtica dioica)",
+        "confidence": "2",
+        "description": "A perennial with opposite, toothed leaves, tiny green flowers, and stinging hairs that cause skin irritation. Grows 2-6 feet tall in moist woods and disturbed areas. Has edible and fiber uses.",
+        "common_name": "stinging nettle",
+        "scientific_name": "Urtica dioica",
+        "image_url": "https://bs.plantnet.org/image/o/9db58cbb3538a6b77384f972971d51869228e545"
+    },
+    {
+        "group": "FORBS",
+        "species": "large-flowered bellwort (Uvularia grandiflora)",
+        "confidence": "3",
+        "description": "A spring wildflower with arching stems, dangling yellow bell-shaped flowers, and leaves that appear to be pierced by the stem. Grows 1-2 feet tall in rich deciduous forests.",
+        "common_name": "large-flowered bellwort",
+        "scientific_name": "Uvularia grandiflora",
+        "image_url": "https://bs.plantnet.org/image/o/128d34dcd2c19bfa349a6089ae6e176e7a1c9558"
+    },
+    {
+        "group": "FORBS",
+        "species": "common mullein (Verbascum thapsus)*",
+        "confidence": "3",
+        "description": "A biennial with a tall flowering spike (2-6 feet), yellow flowers, and large, woolly basal leaves. Grows in dry fields and disturbed areas. Was used medicinally and as torch wicks.",
+        "common_name": "common mullein",
+        "scientific_name": "Verbascum thapsus",
+        "image_url": "https://bs.plantnet.org/image/o/4ad8f2803ebb093246a02b87b3a25bc0ad301c31"
+    },
+    {
+        "group": "FORBS",
+        "species": "blue vervain (Verbena hastata)",
+        "confidence": "1",
+        "description": "A tall perennial with multiple candelabra-like spikes of small blue-purple flowers. Grows 2-5 feet tall in wet meadows and along waterways. Important nectar source for butterflies.",
+        "common_name": "blue vervain",
+        "scientific_name": "Verbena hastata",
+        "image_url": "https://bs.plantnet.org/image/o/ff65cccc01fbee7f16042cfb163f88f302006f93"
+    },
+    {
+        "group": "FORBS",
+        "species": "white vervain (Verbena urticifolia)",
+        "confidence": "1",
+        "description": "A perennial with slender spikes of small white flowers, opposite toothed leaves, and square stems. Grows 2-5 feet tall in woodland edges and moist areas. Less showy than blue vervain.",
+        "common_name": "white vervain",
+        "scientific_name": "Verbena urticifolia",
+        "image_url": "https://bs.plantnet.org/image/o/e81de3a574861f952315ec7e20b0cf1ab6cc1f6a"
+    },
+    {
+        "group": "FORBS",
+        "species": "yellow violet (Viola pubescens)",
+        "confidence": "3",
+        "description": "A woodland perennial with yellow flowers and heart-shaped, softly hairy leaves on the same stem (not basal). Grows 6-12 inches tall in deciduous forests. Also called downy yellow violet.",
+        "common_name": "yellow violet",
+        "scientific_name": "Viola pubescens",
+        "image_url": "https://bs.plantnet.org/image/o/f8483bbe921a17b12d9024b4941718918835d387"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "redtop (Agrostis gigantea)*",
+        "confidence": "1",
+        "description": "An introduced perennial grass with fine-textured leaves and reddish-purple, open, pyramid-shaped flower clusters. Grows 1-3 feet tall in fields, meadows, and disturbed areas.",
+        "common_name": "redtop",
+        "scientific_name": "Agrostis gigantea",
+        "image_url": "https://bs.plantnet.org/image/o/1b59c60617521abf2b789977ce611fa7f499beae"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "stout woodreed (Cinna arundinacea)",
+        "confidence": "1",
+        "description": "A tall woodland grass with broad, flat leaves and drooping, open flower clusters. Grows 2-5 feet tall in moist forests and floodplains. Seeds disperse by attaching to passing animals.",
+        "common_name": "stout woodreed",
+        "scientific_name": "Cinna arundinacea",
+        "image_url": "https://bs.plantnet.org/image/o/d66778739d3697d1492716f45f15d15945064757"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "downy wild rye (Elymus villosus)",
+        "confidence": "3",
+        "description": "A native perennial grass with arching seed heads and hairy leaf sheaths. Grows 2-4 feet tall in woodland edges and openings. Seeds provide food for wildlife.",
+        "common_name": "downy wild rye",
+        "scientific_name": "Elymus villosus",
+        "image_url": "https://bs.plantnet.org/image/o/f6f49452edd68648de6824f679402c81ad1b49f7"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "Virginia wildrye (Elymus virginicus)",
+        "confidence": "1",
+        "description": "A native perennial grass with upright bristly seed heads and flat leaves. Grows 2-4 feet tall in moist woodlands and floodplains. Seed heads resemble cultivated rye.",
+        "common_name": "Virginia wildrye",
+        "scientific_name": "Elymus virginicus",
+        "image_url": "https://bs.plantnet.org/image/o/f66db3b5c1927c1481377c752b3f0f865ccfa2c0"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "creeping lovegrass (Eragrostis hypnoides)",
+        "confidence": "1",
+        "description": "A low-growing annual grass that forms dense mats with short stems and delicate flower clusters. Found on mudflats, riverbanks, and other wet, sandy soils that dry periodically.",
+        "common_name": "creeping lovegrass",
+        "scientific_name": "Eragrostis hypnoides",
+        "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/02e02b910f357cf7413a01412e2d9602.jpg"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "swamp muhly grass (Muhlenbergia frondosa)",
+        "confidence": "1",
+        "description": "A perennial grass with spreading underground stems, flat leaves, and narrow, often purplish flower clusters. Grows in moist woods, thickets, and along streams.",
+        "common_name": "swamp muhly grass",
+        "scientific_name": "Muhlenbergia frondosa",
+        "image_url": "https://bs.plantnet.org/image/o/22423af64824f051047391db6592f100a036c4e0"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "witch grass (Panicum capillare)",
+        "confidence": "1",
+        "description": "An annual grass with hairy leaves and large, airy, spreading seed heads that break off and tumble in the wind. Grows in disturbed soils, fields, and roadsides.",
+        "common_name": "witch grass",
+        "scientific_name": "Panicum capillare",
+        "image_url": "https://bs.plantnet.org/image/o/053487dad48afae97cd8e4f6cac524bb74a377b8"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "reed canary grass (Phalaris arundinacea)*",
+        "confidence": "2",
+        "description": "An aggressive, tall wetland grass with broad leaves and compact, pale flower clusters that turn straw-colored. Forms dense colonies in wetlands and disturbed wet areas.",
+        "common_name": "reed canary grass",
+        "scientific_name": "Phalaris arundinacea",
+        "image_url": "https://bs.plantnet.org/image/o/c43cde942d68b916cabc35b415d92ba588786862"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "little bluestem (Schizachyrium scoparium)",
+        "confidence": "3",
+        "description": "A native warm-season bunchgrass with blue-green summer foliage turning reddish-copper in fall. Grows 2-3 feet tall in prairies and dry open areas. Important for grassland birds.",
+        "common_name": "little bluestem",
+        "scientific_name": "Schizachyrium scoparium",
+        "image_url": "https://bs.plantnet.org/image/o/b5f2a60db870e8fb4bbeb553bc4fa0254fdc32dd"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "yellow foxtail (Setaria pumila)*",
+        "confidence": "1",
+        "description": "An annual grass with flattened stems, yellowish bristly seed heads, and a distinctive fringe of hairs at the leaf base. Common in disturbed soils, gardens, and agricultural fields.",
+        "common_name": "yellow foxtail",
+        "scientific_name": "Setaria pumila",
+        "image_url": "https://bs.plantnet.org/image/o/68589673c89bef3a3f831cf1eb07c8d35fc48547"
+    },
+    {
+        "group": "GRAMINOIDS",
+        "species": "Indian grass (Sorghastrum nutans)",
+        "confidence": "3",
+        "description": "A tall native warm-season grass with golden-bronze flower/seed heads and blue-green foliage. Grows 3-8 feet tall in prairies. Forms extensive root systems important for soil stabilization.",
+        "common_name": "Indian grass",
+        "scientific_name": "Sorghastrum nutans",
+        "image_url": "https://bs.plantnet.org/image/o/69293b583e020dafd1bda4bcf11374ad5d6ed8b8"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "box elder (Acer negundo)",
+        "confidence": "1",
+        "description": "A fast-growing maple with compound leaves (unusual for maples), weak wood, and prolific winged seeds. Grows in floodplains and disturbed areas. Tolerates poor conditions.",
+        "common_name": "box elder",
+        "scientific_name": "Acer negundo",
+        "image_url": "https://bs.plantnet.org/image/o/cdf9f30ae2819e928fc1d152e9434e83e1b4556d"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "black maple (Acer nigrum)",
+        "confidence": "1",
+        "description": "A large deciduous tree closely related to sugar maple but with darker, less deeply lobed leaves with drooping sides. Grows in rich, moist upland forests. Sap can be used for maple syrup.",
+        "common_name": "black maple",
+        "scientific_name": "Acer nigrum",
+        "image_url": "https://bs.plantnet.org/image/o/eb6373c5f52327ead500bd2ea145734b2491cbe5"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "silver maple (Acer saccharinum)",
+        "confidence": "1",
+        "description": "A fast-growing maple with deeply cut leaves that are silvery underneath, early spring flowers, and large winged seeds. Common in floodplains and wet areas.",
+        "common_name": "silver maple",
+        "scientific_name": "Acer saccharinum",
+        "image_url": "https://bs.plantnet.org/image/o/c145c2daa0ca840cd6040f95cf3a5d67cbf9d7ff"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "creeping juneberry (Amelanchier spicata)",
+        "confidence": "1",
+        "description": "A low-growing shrub with white spring flowers, small edible purple-black fruits, and oval finely-toothed leaves. Found in dry, rocky areas and woodland edges. Also called dwarf serviceberry.",
+        "common_name": "creeping juneberry",
+        "scientific_name": "Amelanchier spicata",
+        "image_url": "https://bs.plantnet.org/image/o/b9328137fcb516df1e3e28e4132ed7950bbb9626"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "leadplant (Amorpha canescens)",
+        "confidence": "3",
+        "description": "A small prairie shrub with silver-gray compound leaves, purple flower spikes with golden anthers, and deep roots. Grows 1-3 feet tall in dry prairies. Named for its leaden color.",
+        "common_name": "leadplant",
+        "scientific_name": "Amorpha canescens",
+        "image_url": "https://bs.plantnet.org/image/o/ca0cb2c014c04cb6913189526067ecc60d58d2b0"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "bitternut hickory (Carya cordiformis)",
+        "confidence": "3",
+        "description": "A large deciduous tree with compound leaves, sulfur-yellow winter buds, and bitter nuts with thin husks. Grows in moist upland forests and floodplains. Has distinctive bright yellow buds.",
+        "common_name": "bitternut hickory",
+        "scientific_name": "Carya cordiformis",
+        "image_url": "https://bs.plantnet.org/image/o/adedbc40744ca0cc15bf8c4d0dfe0f0d3a0da21b"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "hackberry (Celtis occidentalis)",
+        "confidence": "3",
+        "description": "A medium to large tree with distinctive warty bark, asymmetrical leaves, and small dark purple berries. Tolerates difficult urban conditions. Important food source for birds.",
+        "common_name": "hackberry",
+        "scientific_name": "Celtis occidentalis",
+        "image_url": "https://bs.plantnet.org/image/o/70af136ed98c857716f16da7a06a7bcec70867c5"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "green ash (Fraxinus pennsylvanica)",
+        "confidence": "3",
+        "description": "A medium to large tree with triangular leaves that tremble in the wind, deeply furrowed bark, and cotton-like seeds. Found along rivers and in floodplains. Pioneer species.",
+        "common_name": "green ash",
+        "scientific_name": "Fraxinus pennsylvanica",
+        "image_url": "https://bs.plantnet.org/image/o/95d6baebc1c1f4bcbc02a2174f8649b541a5bf40"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "black walnut (Juglans nigra)",
+        "confidence": "3",
+        "description": "A large deciduous tree with compound leaves, deeply furrowed bark, and round nuts enclosed in thick green husks. Releases juglone, inhibiting growth of many plants nearby. Valued for timber.",
+        "common_name": "black walnut",
+        "scientific_name": "Juglans nigra",
+        "image_url": "https://bs.plantnet.org/image/o/bf387e36b9eff38cd866bfaf278db1ceda478553"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "eastern red cedar (Juniperus virginiana)",
+        "confidence": "3",
+        "description": "An evergreen conifer with scale-like leaves, reddish bark that peels in strips, and blue berry-like cones. Grows in dry uplands and abandoned fields. Important winter wildlife shelter.",
+        "common_name": "eastern red cedar",
+        "scientific_name": "Juniperus virginiana",
+        "image_url": "https://bs.plantnet.org/image/o/0cd7f875bdb95fea49e829db7c8cf49b7a5bd76c"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "cottonwood (Populus deltoides)",
+        "confidence": "3",
+        "description": "A large, fast-growing tree with triangular leaves that tremble in the wind, deeply furrowed bark, and cotton-like seeds. Found along rivers and in floodplains. Pioneer species.",
+        "common_name": "cottonwood",
+        "scientific_name": "Populus deltoides",
+        "image_url": "https://bs.plantnet.org/image/o/24612cdd0be6e119519f8ebf6e88db3e371bdb22"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "quaking aspen (Populus tremuloides)",
+        "confidence": "3",
+        "description": "A fast-growing tree with smooth greenish-white bark, round leaves that tremble in slight breezes, and extensive root systems that produce clones. Pioneer species in disturbed areas.",
+        "common_name": "quaking aspen",
+        "scientific_name": "Populus tremuloides",
+        "image_url": "https://bs.plantnet.org/image/o/d0fd9008eb9bf8f3bf74c7ca6296ab44b9dbf4d5"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "black cherry (Prunus serotina)",
+        "confidence": "3",
+        "description": "A medium to large tree with dark scaly bark, finely toothed leaves, white flower clusters, and small black fruits. Important timber tree and wildlife food source. Leaves and bark contain cyanide compounds.",
+        "common_name": "black cherry",
+        "scientific_name": "Prunus serotina",
+        "image_url": "https://bs.plantnet.org/image/o/74ff6780c79e4f4ffa984c451f40ede7325a688b"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "bur oak (Quercus macrocarpa)",
+        "confidence": "3",
+        "description": "A massive oak with deeply lobed leaves, thick corky bark, and distinctive acorns with fringed caps. Found in savannas and woodland edges. Fire-resistant and long-lived.",
+        "common_name": "bur oak",
+        "scientific_name": "Quercus macrocarpa",
+        "image_url": "https://bs.plantnet.org/image/o/eba0cb87cfd050a03497e054c3b34fcdf61ca58b"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "northern red oak (Quercus rubra)",
+        "confidence": "3",
+        "description": "A large deciduous tree with pointed-lobed leaves, red fall color, and acorns with shallow cups. Fast-growing for an oak. Found in upland forests. Important wildlife and timber tree.",
+        "common_name": "northern red oak",
+        "scientific_name": "Quercus rubra",
+        "image_url": "https://bs.plantnet.org/image/o/7b2dc9442a14254732804194e87628585d8e4bc6"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "common buckthorn (Rhamnus cathartica)*",
+        "confidence": "3",
+        "description": "An invasive shrub or small tree with glossy leaves, thorny branches, and black berries. Forms dense thickets that crowd out native plants. Berries have strong laxative effect.",
+        "common_name": "common buckthorn",
+        "scientific_name": "Rhamnus cathartica",
+        "image_url": "https://bs.plantnet.org/image/o/c40162e8b07333cbed394d7bb2e19664a4ecac63"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "smooth sumac (Rhus glabra)",
+        "confidence": "3",
+        "description": "A colony-forming shrub with compound leaves, smooth stems, red fall color, and fuzzy red fruit clusters. Grows 5-15 feet tall in prairie edges and disturbed areas. Not poisonous like its relative poison ivy.",
+        "common_name": "smooth sumac",
+        "scientific_name": "Rhus glabra",
+        "image_url": "https://bs.plantnet.org/image/o/50107a19970794bc12182e1068caa667e6b3266c"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "prickly gooseberry (Ribes cynosbati)",
+        "confidence": "3",
+        "description": "A spiny shrub with lobed leaves, greenish flowers, and edible but prickly berries. Grows in woodland understories. The berries have distinctive stiff bristles unlike other gooseberries.",
+        "common_name": "prickly gooseberry",
+        "scientific_name": "Ribes cynosbati",
+        "image_url": "https://bs.plantnet.org/image/o/83b9f74d8e209852da0c483bbc7669aa8d4b6613"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "black raspberry (Rubus occidentalis)",
+        "confidence": "3",
+        "description": "A thorny cane-producing shrub with compound leaves, white flowers, and black cap-shaped berries. Stems have a whitish bloom and arch to the ground. Found in woodland edges and clearings.",
+        "common_name": "black raspberry",
+        "scientific_name": "Rubus occidentalis",
+        "image_url": "https://bs.plantnet.org/image/o/538a56e28df3b788d44fd7b9341bc2f0d21704d0"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "crank willow (Salix x fragilis)*",
+        "confidence": "1",
+        "description": "A hybrid willow tree with narrowly lance-shaped leaves, brittle twigs that break easily at the base, and catkins in spring. Grows rapidly near water bodies. Also called crack willow.",
+        "common_name": "crank willow",
+        "scientific_name": "Salix x fragilis",
+        "image_url": "https://bs.plantnet.org/image/o/235447642ff7a4a72d4fd64db69159844896ff75"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "basswood (Tilia americana)",
+        "confidence": "3",
+        "description": "A large deciduous tree with heart-shaped leaves, fragrant yellow flowers, and distinctive wing-like bracts. Found in rich, moist forests. Important honey tree and wildlife food source.",
+        "common_name": "basswood",
+        "scientific_name": "Tilia americana",
+        "image_url": "https://bs.plantnet.org/image/o/2d52f73c079a5c6313d5e406b5bcecc9f34e9f60"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "eastern poison ivy (Toxicodendron radicans)",
+        "confidence": "3",
+        "description": "A woody vine or shrub with compound leaves consisting of three leaflets, white berries, and urushiol oil that causes painful skin rashes. Can climb trees with aerial rootlets. Leaves turn red in fall.",
+        "common_name": "eastern poison ivy",
+        "scientific_name": "Toxicodendron radicans",
+        "image_url": "https://bs.plantnet.org/image/o/29c97f8fb06bcc8d2e023bcbd3d3f174b501b596"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "red elm (Ulmus rubra)",
+        "confidence": "2",
+        "description": "A medium-sized tree with rough-textured leaves, reddish-brown buds, and inner bark that becomes slimy when wet. Found in moist upland forests. Also called slippery elm for its mucilaginous inner bark.",
+        "common_name": "red elm",
+        "scientific_name": "Ulmus rubra",
+        "image_url": "https://bs.plantnet.org/image/o/001c42215826a81a891ae1d3c883f32d9714241b"
+    },
+    {
+        "group": "TREES AND SHRUBS",
+        "species": "prickly ash (Zanthoxylum americanum)",
+        "confidence": "3",
+        "description": "A shrub with compound leaves, paired sharp thorns, aromatic foliage, and small red berries that split to reveal shiny black seeds. Found in woodland edges. Foliage and bark have a citrus-like aroma.",
+        "common_name": "prickly ash",
+        "scientific_name": "Zanthoxylum americanum",
+        "image_url": "https://bs.plantnet.org/image/o/bb929798108c40a70291ee5f533e5a51b4f8600a"
+    }
+]

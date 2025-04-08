@@ -1,0 +1,732 @@
+[
+    {
+        "group": "BLACKBIRDS",
+        "species": "Baltimore Oriole",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A brilliantly colored songbird with the male having bright orange and black plumage and the female more yellowish. Builds distinctive hanging nest pouches in deciduous trees. Feeds on insects, fruit, and nectar from flowers.",
+        "image_url": "https://images.unsplash.com/photo-1645563146739-b4ee076c5dcc"
+    },
+    {
+        "group": "BLACKBIRDS",
+        "species": "Red-winged Blackbird",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "Males are glossy black with scarlet-and-yellow shoulder patches they display while singing; females are streaked brown. Inhabits marshes, wet meadows, and fields. Known for their distinctive conk-la-ree call and territorial behavior.",
+        "image_url": "https://images.unsplash.com/photo-1650857691980-b4e5fa452a1c"
+    },
+    {
+        "group": "BLACKBIRDS",
+        "species": "Brown-headed Cowbird",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A brood parasite that lays eggs in other birds' nests. Males have glossy black bodies with brown heads; females are plain grayish-brown. Often seen in open areas, fields, and forest edges near grazing animals.",
+        "image_url": ""
+    },
+    {
+        "group": "BLACKBIRDS",
+        "species": "Common Grackle",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A large, iridescent blackbird with a long tail and yellow eyes. Plumage shows purple and bronze glossy highlights in sunlight. Forms large, noisy flocks and inhabits open and semi-open areas including suburban settings.",
+        "image_url": "https://images.unsplash.com/photo-1618084669654-c21c9d9363f2"
+    },
+    {
+        "group": "CARDINALS, GROSBEAKS, AND BUNTINGS",
+        "species": "Northern Cardinal",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A distinctive crested songbird with males sporting bright red plumage and black face mask, while females are more brownish with reddish accents. Has a stout, orange-red bill perfect for cracking seeds. Common in woodland edges, gardens, and shrubby areas.",
+        "image_url": "https://images.unsplash.com/photo-1480775292373-5175d0634811"
+    },
+    {
+        "group": "CARDINALS, GROSBEAKS, AND BUNTINGS",
+        "species": "Indigo Bunting",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "Small songbird with breeding males showing brilliant blue plumage that can appear black in poor light; females are plain brown. Frequents brushy forest edges and weedy fields. Often sings from high perches with a series of paired phrases.",
+        "image_url": "https://images.unsplash.com/photo-1634586636556-f41911550369"
+    },
+    {
+        "group": "CHICKADEES AND TITMICE",
+        "species": "Black-capped Chickadee",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A small, sociable bird with a black cap and bib, white cheeks, and grayish back. Known for its chick-a-dee-dee-dee call and acrobatic feeding behavior. Found in deciduous and mixed woodlands, parks, and backyard feeders year-round.",
+        "image_url": "https://images.unsplash.com/photo-1641482323221-5419630e744f"
+    },
+    {
+        "group": "CRANES",
+        "species": "Sandhill Crane",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A tall, stately gray bird with a crimson crown patch, long neck, and long legs. Performs elaborate dancing displays during courtship. Inhabits open wetlands, prairies, and agricultural fields. Produces a distinctive rolling, trumpeting call heard from great distances.",
+        "image_url": "https://images.unsplash.com/photo-1623804807248-89cd46371563"
+    },
+    {
+        "group": "CUCKOOS",
+        "species": "Yellow-billed Cuckoo",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A slender, long-tailed bird with a curved yellow lower bill, brownish upperparts, and white underparts. Secretive and often heard more than seen. Specializes in eating hairy caterpillars and is sometimes called the 'rain crow' for calling before storms.",
+        "image_url": "https://images.unsplash.com/photo-1603206988834-89810cbea1d0"
+    },
+    {
+        "group": "CUCKOOS",
+        "species": "Black-billed Cuckoo",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A slender cuckoo with an all-black bill, brown upperparts, and white underparts with a subtle buff wash. Shy and secretive, preferring dense thickets and woodland edges. Known for its repetitive, hollow-sounding call and caterpillar-eating habits.",
+        "image_url": ""
+    },
+    {
+        "group": "DUCKS, GEESE, AND SWANS",
+        "species": "Greater White-fronted Goose",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A grayish-brown goose with orange legs and a distinctive white patch surrounding the base of its pink bill. Forms large flocks during migration. Produces a high-pitched, laughing call. Primarily feeds on grains and grasses in agricultural fields.",
+        "image_url": ""
+    },
+    {
+        "group": "DUCKS, GEESE, AND SWANS",
+        "species": "Canada Goose",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A large goose with a black head and neck, distinctive white chinstrap, brown body, and black tail. Highly adaptable to urban environments. Forms V-shaped flocks during migration and is known for its honking calls and protective parenting behavior.",
+        "image_url": "https://images.unsplash.com/photo-1513209395699-7a1e7f745942"
+    },
+    {
+        "group": "DUCKS, GEESE, AND SWANS",
+        "species": "Trumpeter Swan",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "North America's largest native waterfowl with pure white plumage, a black bill, and a 7-8 foot wingspan. Produces a resonant, trumpet-like call. Once endangered but now recovering. Prefers shallow ponds, lakes, and marshes with abundant aquatic vegetation.",
+        "image_url": "https://images.unsplash.com/photo-1649577452407-7a1d8d8723ea"
+    },
+    {
+        "group": "DUCKS, GEESE, AND SWANS",
+        "species": "Wood Duck",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "One of the most colorful North American waterfowl with males displaying iridescent chestnut, green, buff, and white plumage with a distinctive crested head. Nests in tree cavities near water. Unique among ducks for its ability to perch in trees and strong climbing skills.",
+        "image_url": "https://images.unsplash.com/photo-1517465096483-7631c1c48b75"
+    },
+    {
+        "group": "DUCKS, GEESE, AND SWANS",
+        "species": "Blue-winged Teal",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A small dabbling duck with males showing a slate-blue head, white crescent in front of the eye, and blue wing patches visible in flight. Early migrant that prefers shallow wetlands with abundant vegetation. Feeds by tipping up rather than diving.",
+        "image_url": "https://images.unsplash.com/photo-1662692837581-4df7428e1c5b"
+    },
+    {
+        "group": "DUCKS, GEESE, AND SWANS",
+        "species": "Mallard",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "The most familiar wild duck with drakes having a glossy green head, narrow white collar, chestnut breast, and curled black tail feathers. Highly adaptable to urban settings. Forms pairs in fall and winter and is the ancestor of most domestic ducks.",
+        "image_url": "https://images.unsplash.com/photo-1579444798661-ce60beaa0413"
+    },
+    {
+        "group": "DUCKS, GEESE, AND SWANS",
+        "species": "Green-winged Teal",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "Our smallest dabbling duck with males showing a chestnut head with green ear patch, spotted chest, and iridescent green speculum on wing. Quick and agile fliers that travel in tight, twisting flocks. Prefers shallow wetlands and forages by dabbling and tipping up.",
+        "image_url": ""
+    },
+    {
+        "group": "FINCHES",
+        "species": "American Goldfinch",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A small, bright yellow finch with black forehead, wings, and tail (breeding males); females and winter birds are more olive-brown. Late nester that builds compact nests with thistle down. Undulating flight pattern and sweet po-ta-to-chip call are distinctive.",
+        "image_url": "https://images.unsplash.com/photo-1534265534853-9d33c0c00331"
+    },
+    {
+        "group": "GNATCATCHERS",
+        "species": "Blue-gray Gnatcatcher",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A tiny, active bird with blue-gray upperparts, white underparts, and long black tail edged with white. Constantly flicks its tail while foraging for insects. Builds exquisite lichen-covered nests. Produces thin, wheezy calls and buzzing songs in deciduous woodlands.",
+        "image_url": ""
+    },
+    {
+        "group": "GROUSE, TURKEYS, AND PHEASANTS",
+        "species": "Wild Turkey",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A large ground-dwelling bird with dark iridescent plumage, bare blue head, and fleshy red wattles. Males spread their tail feathers in fan display during courtship. Highly adaptable, inhabiting forests, woodlots, and increasingly suburban areas. Makes distinctive gobbling calls.",
+        "image_url": "https://storage.googleapis.com/nuthatch-images/WildTurkey.jpg"
+    },
+    {
+        "group": "GROUSE, TURKEYS, AND PHEASANTS",
+        "species": "Ruffed Grouse",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A medium-sized forest grouse with barred grayish-brown plumage, black neck ruffs, and a broad fan-shaped tail with black band. Produces a distinctive drumming sound by beating wings against air during courtship. Prefers young forest and woodland edges.",
+        "image_url": ""
+    },
+    {
+        "group": "HAWKS AND EAGLES",
+        "species": "Golden Eagle",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A massive raptor with dark brown plumage and golden nape feathers. Immature birds show white patches at base of tail and wings. Much rarer than Bald Eagle in the region. Hunts medium-sized mammals and prefers open country and mountainous regions.",
+        "image_url": "https://images.unsplash.com/photo-1570964251517-9e3442ffe368"
+    },
+    {
+        "group": "HAWKS AND EAGLES",
+        "species": "Cooper's Hawk",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A medium-sized woodland hawk with slate-gray back, barred rusty underparts, and rounded tail with broad dark bands. Specializes in hunting birds with surprise attacks. Found in forests, woodlots, and increasingly suburban areas with mature trees.",
+        "image_url": "https://images.unsplash.com/photo-1628106727381-af76946a9cdf"
+    },
+    {
+        "group": "HAWKS AND EAGLES",
+        "species": "Bald Eagle",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A large raptor with distinctive white head and tail contrasting with dark brown body in adults; juveniles are mostly brown with mottled white. Often seen near water bodies hunting fish. Builds massive stick nests and can live over 30 years. Our national bird and conservation success story.",
+        "image_url": "https://images.unsplash.com/photo-1557401620-67270b61ea82"
+    },
+    {
+        "group": "HAWKS AND EAGLES",
+        "species": "Red-shouldered Hawk",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A medium-sized hawk with rusty barred underparts, black-and-white checkered wings, and distinctive translucent wing crescents visible in flight. Produces a distinctive kee-aah call. Prefers mature forests near wetlands and hunts from perches for small mammals, amphibians, and reptiles.",
+        "image_url": "https://images.unsplash.com/photo-1659467457636-2a2de2495739"
+    },
+    {
+        "group": "HAWKS AND EAGLES",
+        "species": "Red-tailed Hawk",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "Our most common large hawk with variable plumage but typically showing dark band across belly, pale chest, and namesake rusty-red tail in adults. Soars on broad, rounded wings. Adaptable to many habitats from wilderness to urban areas. Has a distinctive hoarse, rasping scream.",
+        "image_url": "https://images.unsplash.com/photo-1623974109467-68cd795737be"
+    },
+    {
+        "group": "HAWKS AND EAGLES",
+        "species": "Rough-legged Hawk",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A large hawk with feathered legs adapted for Arctic breeding grounds. Variable plumage but typically shows dark belly patches, light head, and dark wrist patches visible when soaring. Winter visitor that hovers while hunting small mammals in open areas.",
+        "image_url": ""
+    },
+    {
+        "group": "HERONS AND EGRETS",
+        "species": "Great Blue Heron",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A tall, long-legged wading bird with blue-gray plumage, white crown and face with black plume, and dagger-like yellow bill. Patient hunter that stands motionless before striking at fish and other prey. Nests colonially in tall trees, often near water.",
+        "image_url": "https://images.unsplash.com/photo-1609456878306-592aa2bc0eed"
+    },
+    {
+        "group": "HERONS AND EGRETS",
+        "species": "Green Heron",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A small, stocky heron with dark green cap, chestnut neck, and greenish back. More secretive than larger herons, hunting from low perches at water's edge. Known for tool use\u2014dropping bait on water to attract fish. Makes a distinctive skeow call when flushed.",
+        "image_url": "https://storage.googleapis.com/nuthatch-images/GreenHeron1.jpg"
+    },
+    {
+        "group": "HUMMINGBIRDS",
+        "species": "Ruby-throated Hummingbird",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "Tiny iridescent green bird with males displaying brilliant ruby-red throat patch. Only breeding hummingbird in eastern North America. Capable of hovering and flying backward. Feeds on nectar and tiny insects, visiting tubular flowers and feeders with sugar water.",
+        "image_url": "https://images.unsplash.com/photo-1607030396118-721d84ae0ff1"
+    },
+    {
+        "group": "JAYS, CROWS, AND MAGPIES",
+        "species": "Blue Jay",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": true,
+        "description": "A crested songbird with bright blue upperparts, white underparts, and black necklace. Intelligent and vocal, with a variety of calls including perfect mimicry of hawks. Common in forests, woodlots, parks, and suburbs where they cache acorns and other foods.",
+        "image_url": "https://images.unsplash.com/photo-1623369026097-07d7aab15898"
+    },
+    {
+        "group": "JAYS, CROWS, AND MAGPIES",
+        "species": "American Crow",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": true,
+        "description": "A large, all-black bird with a fan-shaped tail and familiar cawing call. Highly intelligent with complex social structures. Adaptable to many habitats from wilderness to urban areas. Omnivorous diet includes carrion, insects, seeds, fruits, and small animals.",
+        "image_url": "https://images.unsplash.com/photo-1643204762782-3d7cbf77aa13"
+    },
+    {
+        "group": "LARKS",
+        "species": "Horned Lark",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A small ground-dwelling bird with distinctive black face pattern, yellowish face, and small black 'horns' (feather tufts). One of the first songbirds to breed in spring. Prefers open habitats with sparse vegetation including prairies, fields, and even airports.",
+        "image_url": "https://images.unsplash.com/photo-1631980851215-f200418ae825"
+    },
+    {
+        "group": "MIMIDS",
+        "species": "Gray Catbird",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A slender, slate-gray songbird with a black cap, rusty undertail coverts, and cat-like mewing call. Accomplished mimic that incorporates sounds of other birds into its song. Prefers dense thickets, woodland edges, and gardens with abundant shrubs.",
+        "image_url": "https://images.unsplash.com/photo-1664282893522-eae84467e17f"
+    },
+    {
+        "group": "NUTHATCHES",
+        "species": "White-breasted Nuthatch",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A compact bird with blue-gray back, white face and underparts, and black cap. Distinctive behavior of walking headfirst down tree trunks. Common in mature deciduous forests and wooded residential areas. Makes nasal yank-yank calls and caches seeds and insects under bark.",
+        "image_url": "https://images.unsplash.com/photo-1659383222727-ab3cabf1c0a2"
+    },
+    {
+        "group": "OLD WORLD SPARROWS",
+        "species": "House Sparrow",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "An introduced species with males showing gray crown, chestnut nape, black bib, and brownish back; females are plain grayish-brown. Highly adaptable to urban environments and human structures. Forms noisy colonies and competes with native cavity-nesting birds.",
+        "image_url": "https://images.unsplash.com/photo-1605822442653-d9c5be8c74d1"
+    },
+    {
+        "group": "PIGEONS AND DOVES",
+        "species": "Rock Pigeon",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "The familiar city pigeon with variable plumage but typically bluish-gray with two black wing bars. Introduced species now thoroughly established in urban areas worldwide. Forms flocks that feed on seeds and human food scraps. Excellent navigational abilities and homing instincts.",
+        "image_url": "https://images.unsplash.com/photo-1617946546355-6ee938390350"
+    },
+    {
+        "group": "PIGEONS AND DOVES",
+        "species": "Mourning Dove",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A slender, tan-colored dove with black spots on wings and long, pointed tail with white edges. Produces soft, mournful cooing sounds and whistling wingbeats during flight. Common in open woodlands, farmlands, and suburban areas. Ground feeder that primarily eats seeds.",
+        "image_url": "https://images.unsplash.com/photo-1623597898920-effd89b88ce1"
+    },
+    {
+        "group": "PLOVERS",
+        "species": "Killdeer",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A vocal shorebird with two distinctive black breast bands, brown back, and orange rump visible in flight. Famous for its broken-wing display to distract predators from nest. Adaptable to human-modified habitats including lawns, fields, and gravel areas away from water.",
+        "image_url": "https://images.unsplash.com/photo-1506370990336-4e9a83bc4232"
+    },
+    {
+        "group": "SANDPIPERS",
+        "species": "Solitary Sandpiper",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A medium-sized sandpiper with olive-brown upperparts, white eyering, and greenish legs. Unlike most sandpipers, it nests in trees using abandoned songbird nests. Typically forages alone (hence the name) along wooded streams and ponds. Bobs its tail constantly when walking.",
+        "image_url": "https://images.unsplash.com/photo-1609527847383-e24254fdd2aa"
+    },
+    {
+        "group": "SPARROWS",
+        "species": "Field Sparrow",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A small sparrow with rusty cap, gray face, pink bill, and plain breast. Song is an accelerating series of sweet whistles. Inhabits brushy fields, woodland edges, and young successional habitats. Builds cup-shaped nests low in shrubs or on the ground.",
+        "image_url": "https://images.unsplash.com/photo-1663517896101-f1224787cf5a"
+    },
+    {
+        "group": "SPARROWS",
+        "species": "Lark Sparrow",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A distinctive sparrow with complex facial pattern of chestnut, white, and black stripes, spotted breast, and white outer tail feathers. Has a melodious song with buzzes and trills. Prefers open grasslands with scattered trees and shrubs. Performs a courtship dance with raised wings.",
+        "image_url": ""
+    },
+    {
+        "group": "SPARROWS",
+        "species": "American Tree Sparrow",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A winter visitor with rusty cap, gray face with dark ear patch, rusty eye-line, bicolored bill, and central breast spot. Despite its name, breeds in northern tundra and winters in open fields and woodland edges. Forms small flocks that forage for seeds on ground or in low vegetation.",
+        "image_url": "https://images.unsplash.com/photo-1611007629878-d51d711e9d14"
+    },
+    {
+        "group": "SPARROWS",
+        "species": "Dark-eyed Junco",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A common winter visitor with slate-gray upperparts, white belly, and distinctive white outer tail feathers visible in flight. Often feeds on ground beneath feeders in winter. Nicknamed 'snowbird' as its arrival coincides with approaching winter weather. Produces a musical trill song.",
+        "image_url": "https://images.unsplash.com/photo-1546292780-97eb0d1974e1"
+    },
+    {
+        "group": "SPARROWS",
+        "species": "Song Sparrow",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A medium-sized, streaky brown sparrow with a central breast spot and long, rounded tail. One of our most familiar sparrows, known for its sweet, variable song that starts with three distinct notes. Adaptable to many habitats with brushy cover near water.",
+        "image_url": "https://images.unsplash.com/photo-1593559120503-8c0b3775cfd2"
+    },
+    {
+        "group": "SPARROWS",
+        "species": "Swamp Sparrow",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A rusty-capped sparrow with gray face, unstreaked gray breast, and rusty wings. As name suggests, inhabits wetlands including marshes, bogs, and wet meadows. Song is a slow, musical trill. Often wades in shallow water while foraging for aquatic insects and seeds.",
+        "image_url": "https://images.unsplash.com/photo-1658227577625-3b39d8100d16"
+    },
+    {
+        "group": "SWALLOWS",
+        "species": "Tree Swallow",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A streamlined swallow with iridescent blue-green upperparts and clean white underparts. Early spring migrant that nests in tree cavities and nest boxes. Graceful flier that catches insects in mid-air and uniquely eats berries during migration and in winter.",
+        "image_url": "https://images.unsplash.com/photo-1534212758080-135b3affa932"
+    },
+    {
+        "group": "SWALLOWS",
+        "species": "Barn Swallow",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "Distinctive swallow with deep blue upperparts, rusty throat and forehead, and deeply forked tail. Builds mud nests on structures including barns, bridges, and culverts. Graceful, agile flier that feeds on flying insects caught in mid-air over open areas.",
+        "image_url": "https://images.unsplash.com/photo-1639675624162-04158684ce48"
+    },
+    {
+        "group": "SWALLOWS",
+        "species": "Cliff Swallow",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "Stocky swallow with dark blue upperparts, rusty throat, pale forehead, and square tail. Forms large colonies that build gourd-shaped mud nests under bridges, building eaves, and cliff faces. Feeds on flying insects caught over water and open areas.",
+        "image_url": ""
+    },
+    {
+        "group": "THRUSHES",
+        "species": "Hermit Thrush",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A medium-sized thrush with olive-brown back, spotted breast, reddish tail, and distinctive habit of slowly raising and lowering its tail. Renowned for its ethereal, flute-like song with clear, musical phrases. Inhabits coniferous and mixed forests, especially during migration.",
+        "image_url": "https://images.unsplash.com/photo-1650942933077-a7a09ce40317"
+    },
+    {
+        "group": "THRUSHES",
+        "species": "American Robin",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A familiar thrush with gray-brown back, rusty-orange breast, and white throat streaked with black. Often seen hopping across lawns searching for earthworms. Produces cheerful caroling song in spring. Forms large winter flocks that feed on berries and fruits.",
+        "image_url": "https://images.unsplash.com/photo-1608561220714-a7522ff43710"
+    },
+    {
+        "group": "TYRANT FLYCATCHERS",
+        "species": "Eastern Wood-Pewee",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A small, plain olive-gray flycatcher with whitish wingbars and faint vest. Known for its distinctive, slurred pee-a-wee call that gives it its name. Perches upright on exposed branches, making brief flights to catch flying insects before returning to the same perch.",
+        "image_url": "https://images.unsplash.com/photo-1655906181748-cd98ac68e488"
+    },
+    {
+        "group": "TYRANT FLYCATCHERS",
+        "species": "Acadian Flycatcher",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A small greenish flycatcher with whitish throat, pale eye ring, and yellowish belly. Produces an explosive peet-sah call. Inhabits mature deciduous forests, often near streams and ravines. Builds distinctive nests suspended from forked twigs with decorative material hanging below.",
+        "image_url": "https://images.unsplash.com/photo-1662406079609-c88e34e84409"
+    },
+    {
+        "group": "TYRANT FLYCATCHERS",
+        "species": "Willow Flycatcher",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A small, drab olive-brown flycatcher with whitish throat, indistinct eye ring, and no visible crest. Best identified by its distinctive fitz-bew song. Inhabits brushy areas and thickets near water, including willows for which it's named. Arrives late in spring from tropical wintering grounds.",
+        "image_url": ""
+    },
+    {
+        "group": "TYRANT FLYCATCHERS",
+        "species": "Least Flycatcher",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "Our smallest flycatcher with olive-gray upperparts, whitish underparts, bold eye ring, and short bill. Distinctive che-bek call repeated emphatically. Prefers open deciduous woods and forest edges. Actively defends small territories and returns to the same perch after flycatching sallies.",
+        "image_url": ""
+    },
+    {
+        "group": "TYRANT FLYCATCHERS",
+        "species": "Eastern Phoebe",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A medium-sized flycatcher with brownish-gray upperparts, dingy whitish underparts, and habit of pumping its tail downward. One of the earliest returning migrants, known for its raspy fee-bee song. Builds mud-and-moss nests on structures including bridges, culverts, and buildings.",
+        "image_url": "https://images.unsplash.com/photo-1617657523416-c71df7a8d76e"
+    },
+    {
+        "group": "TYRANT FLYCATCHERS",
+        "species": "Great Crested Flycatcher",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A large flycatcher with olive-brown back, bright yellow belly, rufous tail and wings, and distinctive raspy, rising wheep call. Inhabits mature deciduous forests and uses cavities for nesting, often incorporating shed snakeskin in nest material. Typically forages high in the canopy.",
+        "image_url": "https://images.unsplash.com/photo-1598216049611-26152bc1ae7a"
+    },
+    {
+        "group": "TYRANT FLYCATCHERS",
+        "species": "Eastern Kingbird",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A dark gray-black flycatcher with white underparts and distinctive white band across tip of tail. Aggressively defends territory, even attacking much larger birds including hawks and crows. Perches prominently in open areas and makes acrobatic flights to catch insects.",
+        "image_url": "https://images.unsplash.com/photo-1591980415388-278b01e7524c"
+    },
+    {
+        "group": "VIREOS",
+        "species": "Yellow-throated Vireo",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A chunky songbird with bright yellow throat and breast, olive back, and distinctive white spectacles. Produces sweet, burry phrases sung from high in deciduous forest canopy. Moves deliberately while foraging for insects along branches and leaves. Builds hanging cup nests suspended from tree forks.",
+        "image_url": ""
+    },
+    {
+        "group": "VIREOS",
+        "species": "Warbling Vireo",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A plain grayish-olive vireo with little distinctive markings except for pale eyebrow. Named for its pleasant, warbling song that rises and falls in pitch. Often found in deciduous trees along water or in parks, especially cottonwoods and willows. Forages deliberately for insects among leaves.",
+        "image_url": ""
+    },
+    {
+        "group": "VIREOS",
+        "species": "Red-eyed Vireo",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A olive-green vireo with white underparts, gray crown, and distinctive white eyebrow bordered by dark eye line and red iris (difficult to see). Tireless singer that may give thousands of phrases per day. Common in deciduous forests where it forages methodically for insects in middle and upper canopy.",
+        "image_url": ""
+    },
+    {
+        "group": "WARBLERS",
+        "species": "Common Yellowthroat",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A small warbler with males showing distinctive black mask bordered by gray-white, bright yellow throat and breast, and olive-brown back. Produces a distinctive witchety-witchety-witchety song. Inhabits marshes, wet thickets, and brushy fields where it skulks low in vegetation.",
+        "image_url": "https://images.unsplash.com/photo-1564759719065-df173fe15d98"
+    },
+    {
+        "group": "WARBLERS",
+        "species": "American Redstart",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A active warbler with males showing black plumage with bright orange patches on sides, wings, and tail; females are olive with yellow patches. Constantly fans its tail displaying colorful patches that flush insects. Song is a series of high, clear notes ending with an accented note.",
+        "image_url": "https://images.unsplash.com/photo-1620589919696-e16bc33ac8a1"
+    },
+    {
+        "group": "WARBLERS",
+        "species": "Yellow Warbler",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A bright, all-yellow warbler with males showing reddish streaking on chest. One of the most widespread warblers in North America. Produces a musical sweet-sweet-sweet-a-little-more-sweet song. Common in shrubby wetlands and deciduous growth along streams and in young woodlands.",
+        "image_url": "https://images.unsplash.com/photo-1620589919646-b4f9da605438"
+    },
+    {
+        "group": "WAXWINGS",
+        "species": "Cedar Waxwing",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A sleek, crested songbird with soft brown plumage, black mask, yellow-tipped tail, and red waxy tips on wing feathers. Travels in sociable flocks that feed heavily on berries and fruits. Produces high-pitched, thin whistles and trills. Late nester that times breeding with summer fruit availability.",
+        "image_url": "https://images.unsplash.com/photo-1611273232428-3171528f2548"
+    },
+    {
+        "group": "WOODPECKERS",
+        "species": "Yellow-bellied Sapsucker",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A medium-sized woodpecker with barred black-and-white back, red forehead (males also have red throat), and pale yellow wash on belly. Creates distinctive rows of small holes (sap wells) in trees to feed on sap and trapped insects. Produces a mewing call and irregular drumming.",
+        "image_url": ""
+    },
+    {
+        "group": "WOODPECKERS",
+        "species": "Red-bellied Woodpecker",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "A medium-sized woodpecker with barred black-and-white back, red nape extending to crown in males, and barely visible pinkish wash on belly. Common in deciduous woods and suburban areas with mature trees. Has a rolling churr call and forages for insects under bark and in crevices.",
+        "image_url": "https://images.unsplash.com/photo-1645662173690-a9debc6f4350"
+    },
+    {
+        "group": "WOODPECKERS",
+        "species": "Downy Woodpecker",
+        "spring": true,
+        "summer": true,
+        "fall": true,
+        "winter": false,
+        "description": "Our smallest woodpecker with black-and-white pattern, white back, and short bill. Males have small red patch on nape. Familiar visitor to backyard feeders and wooded areas. Produces a descending whinny call and quick drumming. Forages on small branches and twigs that larger woodpeckers cannot access.",
+        "image_url": "https://images.unsplash.com/photo-1615146101908-a8a3fce0074e"
+    },
+    {
+        "group": "WOODPECKERS",
+        "species": "Hairy Woodpecker",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "Similar to Downy but larger with longer, stouter bill and all-white outer tail feathers. Males have red patch on nape. Less common than Downy and typically found in more mature forests. Produces a sharp peek call and longer, slower drum rolls. Forages on larger branches and trunks for wood-boring insects.",
+        "image_url": "https://images.unsplash.com/photo-1617994736836-e1b475355ed6"
+    },
+    {
+        "group": "WOODPECKERS",
+        "species": "Pileated Woodpecker",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "Our largest woodpecker with mostly black plumage, white stripes on face, and spectacular red crest. Makes distinctive large, rectangular excavations in dead trees while searching for carpenter ants. Produces loud drumming and wild, laughing calls. Requires large dead trees for nesting and feeding.",
+        "image_url": "https://images.unsplash.com/photo-1518570931581-f1d6f674af1b"
+    },
+    {
+        "group": "WOODPECKERS",
+        "species": "Northern Flicker",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A large, brown woodpecker with black barring, red nape crescent, black bib, and white rump visible in flight. Eastern birds show yellow wing linings in flight. Often feeds on ground for ants and beetles. Produces a loud wicka-wicka-wicka call and distinctive rolling drum that slows at end.",
+        "image_url": "https://images.unsplash.com/photo-1657472577538-6f883e1ceed3"
+    },
+    {
+        "group": "WRENS",
+        "species": "House Wren",
+        "spring": true,
+        "summer": false,
+        "fall": false,
+        "winter": false,
+        "description": "A small, energetic wren with brown plumage, faint barring on wings and tail, and upturned tail. Produces a complex, bubbling song with many notes. Nests in cavities including birdhouses, filling them with twigs. Aggressive for its size, often destroying eggs of other cavity-nesting birds.",
+        "image_url": "https://images.unsplash.com/photo-1620589919582-31c7575b4ad8"
+    },
+    {
+        "group": "NEW WORLD VULTURES",
+        "species": "Turkey Vulture",
+        "spring": true,
+        "summer": true,
+        "fall": false,
+        "winter": false,
+        "description": "A large soaring bird with dark brown-black plumage, red featherless head in adults, and distinctive two-toned underwings appearing silvery from below. Flies with wings held in V-shape (dihedral) while rocking side to side. Locates carrion by smell and serves important role as nature's clean-up crew.",
+        "image_url": "https://images.unsplash.com/photo-1541440678366-ebb314356d69"
+    }
+]
