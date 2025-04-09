@@ -24,12 +24,10 @@ struct BirdCheckListView: View {
               .bold()
             ) {
               ForEach(groupedBirds[birdGroup] ?? [], id: \.id) { bird in
-                BirdCell(bird: bird)
-                  .listRowInsets(EdgeInsets(top: 4, leading: 16, bottom: 4, trailing: 16))
-                  .contentShape(Rectangle())
-                  .onTapGesture {
-                    selectedBird = bird
-                  }
+                BirdCell(bird: bird) {
+                  selectedBird = bird
+                }
+                .listRowInsets(EdgeInsets(top: 4, leading: 16, bottom: 4, trailing: 16))
               }
             }
           }
