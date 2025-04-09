@@ -10,6 +10,7 @@ import SwiftUI
 struct BirdDetailView: View {
   let bird: Bird
   @Environment(\.dismiss) private var dismiss
+  @StateObject private var tracker = BirdTrackingManager.shared
     
   var body: some View {
     NavigationView {
@@ -78,6 +79,15 @@ struct BirdDetailView: View {
       .navigationTitle("Bird Details")
       .navigationBarTitleDisplayMode(.inline)
       .toolbar {
+        ToolbarItem(placement: .navigationBarTrailing) {
+          Button {
+            tracker.toggleBird(bird)
+          } label: {
+            Image(systemName: tracker.isTracked(bird) ? "checkmark.circle.fill" : "circle")
+              .foregroundColor(tracker.isTracked(bird) ? .green : .gray)
+          }
+        }
+        
         ToolbarItem(placement: .navigationBarTrailing) {
           Button("Done") {
             dismiss()

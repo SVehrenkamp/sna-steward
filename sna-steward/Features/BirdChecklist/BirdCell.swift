@@ -12,7 +12,11 @@ private class ImageCache {
 }
 
 struct BirdCell: View {
+  
   let bird: Bird
+  let onTap: () -> Void
+
+  @StateObject private var tracker = BirdTrackingManager.shared
   @State private var image: UIImage?
 
   var body: some View {
@@ -29,7 +33,7 @@ struct BirdCell: View {
             .fill(Color.gray.opacity(0.2))
             .frame(width: 40, height: 40)
             .overlay(
-              Image(systemName: "bird")
+              Image(systemName: "photo")
                 .foregroundColor(.gray.opacity(0.5))
             )
             .task {
@@ -44,8 +48,22 @@ struct BirdCell: View {
       Text(bird.species)
         .lineLimit(2)
         .minimumScaleFactor(0.8)
+      
+      Spacer()
+      
+      Button(action: {
+        tracker.toggleBird(bird)
+      }) {
+        Image(systemName: tracker.isTracked(bird) ? "checkmark.circle.fill" : "circle")
+          .foregroundColor(tracker.isTracked(bird) ? .green : .gray)
+      }
+      .buttonStyle(.plain)
     }
     .padding(.vertical, 4)
+    .contentShape(Rectangle())
+    .onTapGesture {
+      onTap()
+    }
   }
 
   private func loadImage() async {
@@ -70,10 +88,10 @@ struct BirdCell: View {
 #Preview {
   Group {
     // Preview with image
-    BirdCell(bird: Bird.sampleRobin)
+    BirdCell(bird: Bird.sampleRobin, onTap: {})
 
     // Preview without image
-    BirdCell(bird: Bird.sampleBlueJay)
+    BirdCell(bird: Bird.sampleBlueJay, onTap: {})
   }
   .padding()
 }
