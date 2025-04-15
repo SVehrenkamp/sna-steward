@@ -24,12 +24,17 @@ struct MainTabView: View {
 
 // Placeholder views for each tab
 struct ObservationReportsView: View {
+  
+  @State private var createNewReport = false
+  
     var body: some View {
       NavigationView {
         VStack {
           Text("Observation Reports")
             .navigationTitle("Reports")
-          Button(action: {}) {
+          Button(action: {
+            createNewReport.toggle()
+          }) {
             Label("Create a new report", systemImage: "plus")
           }
           .padding(20)
@@ -40,8 +45,12 @@ struct ObservationReportsView: View {
         }
         .padding(.horizontal, 20)
       }
+      .sheet(isPresented: $createNewReport) {
+      ObservationReportView()
+    }
     }
 }
+
 
 struct ChecklistsView: View {
   @State private var selectedOption: Int = 0;
