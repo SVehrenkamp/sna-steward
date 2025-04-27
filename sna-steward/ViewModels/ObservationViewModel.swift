@@ -1,82 +1,70 @@
 import Foundation
-import SwiftUI
+import SwiftUI // Added for ObservableObject
 
+@MainActor
 class ObservationViewModel: ObservableObject {
-    @Published var observations: [Observation] = []
+    @Published var observation: Observation // Renamed from report
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?
     
-    private let repository = ObservationRepository.shared
+    // Assuming ObservationRepository exists and is adapted for the new Observation model
+    private let repository = ObservationRepository.shared 
     
-    // Fetch all observations
-    func fetchObservations() {
+    init(observation: Observation = Observation()) { // Renamed from report
+        self.observation = observation
+    }
+    
+    // MARK: - Form Validation
+    var isValid: Bool {
+        !observation.siteName.isEmpty &&
+        !observation.stewardName.isEmpty
+    }
+    
+    // MARK: - Save and Submit (Updated)
+    func saveObservation() async {
         isLoading = true
         errorMessage = nil
         
-        Task {
-            do {
-                let fetchedObservations = try await repository.fetchObservations()
-                
-                await MainActor.run {
-                    self.observations = fetchedObservations
-                    self.isLoading = false
-                }
-            } catch {
-                await MainActor.run {
-                    self.errorMessage = "Failed to fetch observations: \(error.localizedDescription)"
-                    self.isLoading = false
-                }
-            }
+        do {
+            let savedObservation = try await repository.saveObservation(observation)
+            self.observation = savedObservation 
+            self.isLoading = false
+        } catch {
+            self.errorMessage = "Failed to save observation: \(error.localizedDescription)"
+            self.isLoading = false
         }
     }
     
-    // Save a new observation
-    func saveObservation(_ observation: Observation) {
-        isLoading = true
-        errorMessage = nil
-        
-        Task {
-            do {
-                let savedObservation = try await repository.saveObservation(observation)
-                
-                await MainActor.run {
-                    if let index = self.observations.firstIndex(where: { $0.id == savedObservation.id }) {
-                        self.observations[index] = savedObservation
-                    } else {
-                        self.observations.append(savedObservation)
-                    }
-                    self.isLoading = false
-                }
-            } catch {
-                await MainActor.run {
-                    self.errorMessage = "Failed to save observation: \(error.localizedDescription)"
-                    self.isLoading = false
-                }
-            }
+    func submitObservation() async throws {
+        guard isValid else {
+            throw ValidationError.invalidForm
+        }
+        await saveObservation() 
+        if errorMessage != nil {
+             throw SubmissionError.saveFailed(errorMessage!)
         }
     }
+}
+
+// MARK: - Errors
+enum ValidationError: LocalizedError {
+    case invalidForm
     
-    // Update an existing observation
-    func updateObservation(_ observation: Observation) {
-        isLoading = true
-        errorMessage = nil
-        
-        Task {
-            do {
-                let updatedObservation = try await repository.updateObservation(observation)
-                
-                await MainActor.run {
-                    if let index = self.observations.firstIndex(where: { $0.id == updatedObservation.id }) {
-                        self.observations[index] = updatedObservation
-                    }
-                    self.isLoading = false
-                }
-            } catch {
-                await MainActor.run {
-                    self.errorMessage = "Failed to update observation: \(error.localizedDescription)"
-                    self.isLoading = false
-                }
-            }
+    var errorDescription: String? {
+        switch self {
+        case .invalidForm:
+            return "Please fill in all required fields (Site Name, Steward Name)"
+        }
+    }
+}
+
+enum SubmissionError: LocalizedError {
+    case saveFailed(String)
+    
+    var errorDescription: String? {
+        switch self {
+            case .saveFailed(let msg):
+                return "Failed to save observation: \(msg)"
         }
     }
 } 

@@ -46,7 +46,7 @@ struct ObservationReportsView: View {
         .padding(.horizontal, 20)
       }
       .sheet(isPresented: $createNewReport) {
-      ObservationReportView()
+      ObservationView()
     }
     }
 }
