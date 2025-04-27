@@ -33,6 +33,17 @@ class SupabaseManager {
         try await client.auth.signOut()
     }
     
+    func signInWithMagicLink(email: String) async throws {
+        try await client.auth.signInWithOTP(
+            email: email
+        )
+    }
+    
+    // Optional: Method to handle sign-in from a deep link URL
+    func sessionFromDeeplink(url: URL) async throws -> Session {
+        try await client.auth.session(from: url)
+    }
+    
     // Database methods - examples to be expanded as needed
     func fetchData<T: Decodable>(from table: String) async throws -> [T] {
         try await client.database
@@ -57,5 +68,51 @@ class SupabaseManager {
             .match(match)
             .execute()
             .value
+    }
+}
+
+// Helper Error Enum (Optional, but good practice)
+enum AuthError: Error {
+    case sessionNotFound
+}
+
+extension SupabaseManager {
+    // Assumes you have a Steward struct defined as shown above
+    func fetchCurrentUserStewardProfile() async throws -> Steward? {
+        guard let userId = try? await client.auth.user().id else {
+            throw AuthError.sessionNotFound // Or a more specific error
+        }
+
+        // Fetch the single row matching the user's ID
+        let profile: Steward = try await client.database
+            .from("stewards")
+            .select() // Selects all columns by default
+            .eq("id", value: userId) // Filter by the user ID
+            .single() // Expect exactly one row
+            .execute()
+            .value
+
+        return profile
+    }
+
+    func updateSnaSiteForCurrentUser(newSite: String?) async throws {
+         guard let userId = try? await client.auth.user().id else {
+            throw AuthError.sessionNotFound // Or a more specific error
+        }
+
+        struct UpdatePayload: Encodable {
+            let sna_site: String?
+        }
+        let payload = UpdatePayload(sna_site: newSite)
+
+        // Update the row matching the user's ID
+        try await client.database
+            .from("stewards")
+            .update(payload) // Update only the specified fields
+            .eq("id", value: userId) // Filter by the user ID
+            .execute()
+
+        // Note: .execute() for update doesn't return the updated row by default.
+        // If you need the updated row, you might need to fetch it again or adjust Supabase settings/query.
     }
 } 

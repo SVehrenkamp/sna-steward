@@ -57,5 +57,8 @@ struct BirdCheckListView: View {
 }
 
 #Preview {
-  BirdCheckListView()
+  // Setup mock environment for preview
+  DotEnv.setupForPreviews()
+  
+  return BirdCheckListView()
 }
