@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+//@main
 struct SNA_StewardApp: App {
     // Initialize environment and Supabase at app startup
     init() {
@@ -20,7 +20,7 @@ struct SNA_StewardApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+//            MainTabView()
         }
     }
 }

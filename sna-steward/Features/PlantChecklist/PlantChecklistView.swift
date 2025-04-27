@@ -29,5 +29,8 @@ struct PlantCheckListView: View {
 }
 
 #Preview {
-  PlantCheckListView()
+  // Setup mock environment for preview
+  DotEnv.setupForPreviews()
+  
+  return PlantCheckListView()
 }

@@ -1,8 +1,14 @@
 import SwiftUI
 
 struct MainTabView: View {
+  @ObservedObject var viewModel: AuthViewModel
+  
     var body: some View {
         TabView {
+          MainContentView(viewModel: viewModel)
+            .tabItem {
+              Label("Home", systemImage: "house")
+            }
             ObservationReportsView()
                 .tabItem {
                     Label("Reports", systemImage: "doc.text")
@@ -90,5 +96,7 @@ struct MapView: View {
 
 
 #Preview {
-    MainTabView()
-} 
+  // Use a pre-authenticated mock view model
+  return MainTabView(viewModel: PreviewHelper.createAuthenticatedViewModel())
+}
+

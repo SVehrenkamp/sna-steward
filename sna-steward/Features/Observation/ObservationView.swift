@@ -149,5 +149,8 @@ struct ObservationView: View {
 }
 
 #Preview {
-    ObservationView()
+    // Setup mock environment for preview
+    DotEnv.setupForPreviews()
+    
+    return ObservationView()
 } 
